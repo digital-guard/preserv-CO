@@ -1,0 +1,4 @@
+pack_id,vers,donor_id,donor_label,user_resp,accepted_date,escopo,about,author,contentReferenceTime,license_is_explicit,license,uri_objType,uri,isAt_UrbiGIS,status,statusUpdateDate
+001,001,1,DC-BGT,,,CO-DC-BGT,,(self),,yes,CC-BY,site,https://datosabiertos.bogota.gov.co/dataset,,,
+002,001,2,ANT-MED,,,CO-ANT-MED,,(self),,yes,Open data,site,https://geomedellin-m-medellin.opendata.arcgis.com/datasets/,,,
+003,001,3,IGAC,,,CO,,(self),,yes,CC-BY 4.0,site,https://geoportal.igac.gov.co/contenido/datos-abiertos-catastro,,,

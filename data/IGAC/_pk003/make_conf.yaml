@@ -1,0 +1,106 @@
+pkid:     03 
+pkversion: "001"
+schemaId_input:    ref027a
+schemaId_template: ref027a
+srid: 4686
+files:
+  -
+    p:    1
+    file: fec69d3bfff13e8d2b25c03a8f866020e63ee2b53c07bab274283b14d4bde268.zip
+    name: Nomenclatura Domiciliaria urbano
+  -
+    p:    2
+    file: 7b33a7765e52e9031d1b670bbdf800a48c2e7722054e0ad2aae2625d38d778fe.zip
+    name: Nomenclatura Vial urbano
+  -
+    p:    3
+    file: db707701e3193d1ea3179020fe9d262e8c6968d0fb5c9a6f6533b2d92bb600b1.zip
+    name: Terreno urbano
+  -
+    p:    4
+    file: d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip
+    name: Manzana
+  -
+    p:    5
+    file: a522f7537440fe2a6f5f96a470f5cb7ec5d756a5fa0689a86cfd7eff7b466915.zip
+    name: Nomenclatura Domiciliaria rural
+  -
+    p:    6
+    file: ce38ea5475e9f486f354b0079f840894d6ef1c2ca1d6c850c0cff58cc73d4478.zip
+    name: Nomenclatura Vial rural
+  -
+    p:    7
+    file: 67dbc1385846f4d1930622b4bdb647bf54f8317a61995908b017f8ad197bd596.zip
+    name: Terreno rural
+  -
+    p:    8
+    file: 08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip
+    name: Vereda
+
+
+layers:
+
+  geoaddress:
+    subtype: full
+    method: shp2sql
+    p: 1a
+    file: 1
+    sql_select: ['gid', 'texto AS house_number',  'geom']
+    orig_filename: shp/U_NOMENCLATURA_DOMICILIARIA
+
+  geoaddress_rural:
+    subtype: full
+    method: shp2sql
+    p: 5a
+    file: 5
+    sql_select: ['gid', 'texto AS house_number',  'geom']
+    orig_filename: shp/R_NOMENCLATURA_DOMICILIARIA
+
+  via:
+    subtype: full
+    method: shp2sql
+    p: 2a
+    file: 2
+    sql_select: ['gid', 'texto AS via_name',  'geom']
+    orig_filename: shp/U_NOMENCLATURA_VIAL
+
+  via_rural:
+    subtype: full
+    method: shp2sql
+    p: 6a
+    file: 6
+    sql_select: ['gid', 'texto AS via_name',  'geom']
+    orig_filename: shp/R_NOMENCLATURA_VIAL
+
+  parcel:
+    subtype: none
+    method: shp2sql
+    p: 3a
+    file: 3
+    sql_select: ['gid', 'codigo',  'geom']
+    orig_filename: shp/U_TERRENO
+
+  parcel_rural:
+    subtype: none
+    method: shp2sql
+    p: 7a
+    file: 7
+    sql_select: ['gid', 'codigo', 'geom']
+    orig_filename: shp/R_TERRENO
+
+  block:
+    subtype: none
+    method: shp2sql
+    p: 4a
+    file: 4
+    sql_select: ['gid', 'codigo', 'barrio_cod', 'geom']
+    orig_filename: shp/U_MANZANA
+
+  nsvia:
+    subtype: full
+    method: shp2sql
+    p: 8a
+    file: 8
+    sql_select: ['gid', 'codigo','nombre AS nsvia_name', 'geom']
+    orig_filename: shp/R_VEREDA
+
