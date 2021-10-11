@@ -1,8 +1,8 @@
 pkid:      integer,
 pkversion: integer,
-schemaId_input:    string, ID do JSON-schema de input, ref no preimeiro template a usar este padrão de input.
-schemaId_template: string, ID do makefile.mustache, ref no preimeiro package a usar o template.
-thisTplFile_root: nome do git utilizado como raiz dos schemas, por exemplo digital-preservation-BR
+schemaId_input:    string, ID do JSON-schema de input, ref no primeiro template a usar este padrão de input.
+schemaId_template: string, ID do makefile.mustache, ref no primeiro package a usar o template.
+thisTplFile_root: nome do git utilizado como raiz dos schemas, por exemplo preserv-BR
 srid: identificador tipo SRID no PostGIS da base de ingestão, padrão EPSG, por exemplo https://spatialreference.org/ref/epsg/wgs-84/
 files:
   -

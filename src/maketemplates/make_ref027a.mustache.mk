@@ -1,5 +1,5 @@
 ##
-## Template file reference: digital-preservation-BR/data/in/RS/PortoAlegre/_pk027
+## Template file reference: preserv-BR/data/RS/PortoAlegre/_pk027
 ## tplId: 027a
 ##
 tplInputSchema_id=027a
@@ -64,7 +64,6 @@ geoaddress-clean: tabname = pk$(fullPkID)_p{{file}}_geoaddress
 geoaddress-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/geoaddress}}
 
 
@@ -74,7 +73,7 @@ nsvia: tabname = pk$(fullPkID)_p{{file}}_nsvia
 nsvia: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "nsvia" datatype (zone with name)
 {{>common002_layerHeader}}
-	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}.*"  ; chmod -R a+rx . > /dev/null
+	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}.*" ; chmod -R a+rx . > /dev/null
 {{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
@@ -83,7 +82,6 @@ nsvia-clean: tabname = pk$(fullPkID)_p{{file}}_nsvia
 nsvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE;  DROP VIEW IF EXISTS vw_$(tabname) CASCADE;"
-
 {{/nsvia}}
 
 
@@ -93,7 +91,7 @@ via: tabname = pk$(fullPkID)_p{{file}}_via
 via: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "via" datatype (street axes)
 {{>common002_layerHeader}}
-	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}.*"  ; chmod -R a+rx . > /dev/null
+	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}.*" ; chmod -R a+rx . > /dev/null
 {{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
@@ -102,7 +100,6 @@ via-clean: tabname = pk$(fullPkID)_p{{file}}_via
 via-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/via}}
 
 
@@ -121,7 +118,6 @@ parcel-clean: tabname = pk$(fullPkID)_p{{file}}_parcel
 parcel-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/parcel}}
 
 {{#block}}## ## ## ## sponsored by Project AddressForAll
@@ -139,7 +135,6 @@ block-clean: tabname = pk$(fullPkID)_p{{file}}_block
 block-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/block}}
 
 
@@ -158,7 +153,6 @@ genericvia-clean: tabname = pk$(fullPkID)_p{{file}}_genericvia
 genericvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/genericvia}}
 
 {{#building}}## ## ## ## sponsored by Project AddressForAll
@@ -176,7 +170,6 @@ building-clean: tabname = pk$(fullPkID)_p{{file}}_building
 building-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/building}}
 
 {{#cadvia}}## ## ## ## sponsored by Project AddressForAll
@@ -194,7 +187,6 @@ cadvia-clean: tabname = pk$(fullPkID)_p{{file}}_cadvia
 cadvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/cadvia}}
 
 {{/layers}}

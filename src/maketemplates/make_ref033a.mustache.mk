@@ -1,5 +1,5 @@
 ##
-## Template file reference: digital-preservation-BR/data/in/MG/Contagem/_pk033
+## Template file reference: preserv-BR/data/MG/Contagem/_pk033
 ## tplId: 033a
 ##
 tplInputSchema_id=033a
@@ -56,7 +56,7 @@ geoaddress: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "geoaddress" datatype (point with house_number but no via name)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -64,7 +64,6 @@ geoaddress-clean: tabname = pk$(fullPkID)_p{{file}}_geoaddress
 geoaddress-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/geoaddress}}
 
 
@@ -75,7 +74,7 @@ nsvia: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "nsvia" datatype (zone with name)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -83,7 +82,6 @@ nsvia-clean: tabname = pk$(fullPkID)_p{{file}}_nsvia
 nsvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE;  DROP VIEW IF EXISTS vw_$(tabname) CASCADE;"
-
 {{/nsvia}}
 
 
@@ -94,7 +92,7 @@ via: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "via" datatype (street axes)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -102,7 +100,6 @@ via-clean: tabname = pk$(fullPkID)_p{{file}}_via
 via-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/via}}
 
 
@@ -113,7 +110,7 @@ parcel: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "parcel" datatype (street axes)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -121,7 +118,6 @@ parcel-clean: tabname = pk$(fullPkID)_p{{file}}_parcel
 parcel-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/parcel}}
 
 {{#block}}## ## ## ## sponsored by Project AddressForAll
@@ -131,7 +127,7 @@ block: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "block" datatype (street axes)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -139,7 +135,6 @@ block-clean: tabname = pk$(fullPkID)_p{{file}}_block
 block-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/block}}
 
 {{#genericvia}}## ## ## ## sponsored by Project AddressForAll
@@ -149,7 +144,7 @@ genericvia: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "genericvia" datatype (lots and blocks)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -157,7 +152,6 @@ genericvia-clean: tabname = pk$(fullPkID)_p{{file}}_genericvia
 genericvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/genericvia}}
 
 {{#building}}## ## ## ## sponsored by Project AddressForAll
@@ -167,7 +161,7 @@ building: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "building" datatype (construction)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -175,7 +169,6 @@ building-clean: tabname = pk$(fullPkID)_p{{file}}_building
 building-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/building}}
 
 {{#cadvia}}## ## ## ## sponsored by Project AddressForAll
@@ -185,7 +178,7 @@ cadvia: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "cadvia" datatype (via data)
 {{>common002_layerHeader}}
 	cd $(sandbox);  7z x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
-	docker run --rm --network host -v $(sandbox):/tmp osgeo/gdal ogr2ogr -overwrite -f "PostgreSQL" PG:" dbname='$(pg_db)' host='localhost' port='5432' user='postgres'     " "/tmp/{{orig_filename}}{{orig_ext}}" {{{orig_tabname}}} -nln $(tabname)
+{{>common003_shp2pgsql}}
 {{>common001_pgAny_load}}
 	@echo FIM.
 
@@ -193,9 +186,7 @@ cadvia-clean: tabname = pk$(fullPkID)_p{{file}}_cadvia
 cadvia-clean:
 	rm -f "$(sandbox)/{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
-
 {{/cadvia}}
-
 
 
 {{/layers}}
