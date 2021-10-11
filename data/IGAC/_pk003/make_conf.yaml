@@ -6,8 +6,8 @@ srid: 4686
 files:
   -
     p:    1
-    file: fec69d3bfff13e8d2b25c03a8f866020e63ee2b53c07bab274283b14d4bde268.zip
-    name: Nomenclatura Domiciliaria urbano
+    file: 48281334c4de8d73e6a7856cebfd5bce40a98cc6a64de73fa6a73618380ecf72.zip
+    name: Nomenclatura Domiciliaria urbano e rural
   -
     p:    2
     file: 7b33a7765e52e9031d1b670bbdf800a48c2e7722054e0ad2aae2625d38d778fe.zip
@@ -46,15 +46,7 @@ layers:
     p: 1a
     file: 1
     sql_select: ['gid', 'texto AS house_number',  'geom']
-    orig_filename: shp/U_NOMENCLATURA_DOMICILIARIA
-
-  geoaddress_rural:
-    subtype: full
-    method: shp2sql
-    p: 5a
-    file: 5
-    sql_select: ['gid', 'texto AS house_number',  'geom']
-    orig_filename: shp/R_NOMENCLATURA_DOMICILIARIA
+    orig_filename: shp/NOMENCLATURA_DOMICILIARIA
 
   via:
     subtype: full
