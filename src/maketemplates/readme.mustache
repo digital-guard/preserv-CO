@@ -1,4 +1,4 @@
-# Tarefas
+# Tareas
 
 ## 1. 
 
@@ -6,17 +6,17 @@
 
 {{#layers}}
 
-# Extração
-Abaixo os passos para extração por tipo de dado relevante.
+# Extracción
+A continuación se muestran los pasos para la extracción por tipo de datos relevantes.
 
 {{#nsvia}}
 ## Bairros
 SRID: 
 1. Abrir ``.
-2. Selecionar arquivos `{{orig_filename}}`.
-3. Copiar arquivos selecionados para diretório alvo.
+2. Selecciona archivos `{{orig_filename}}`.
+3. Copie los archivos seleccionados al directorio de destino.
 
-### Dados relevantes
+### Datos relevantes
 Colunas da camada `{{orig_filename}}`:
 * ``;
 * ``.
@@ -26,10 +26,10 @@ Colunas da camada `{{orig_filename}}`:
 ## Lotes
 SRID: 
 1. Abrir ``.
-2. Selecionar arquivos `{{orig_filename}}`.
-3. Copiar arquivos selecionados para diretório alvo.
+2. Selecciona archivos `{{orig_filename}}`.
+3. Copie los archivos seleccionados al directorio de destino.
 
-### Dados relevantes
+### Datos relevantes
 Colunas da camada `{{orig_filename}}`:
 * `` (): ;
 * `` (): .
@@ -39,10 +39,10 @@ Colunas da camada `{{orig_filename}}`:
 ## Eixos
 SRID: 
 1. Abrir ``.
-2. Selecionar arquivos `{{orig_filename}}`.
-3. Copiar arquivos selecionados para diretório alvo.
+2. Selecciona archivos `{{orig_filename}}`.
+3. Copie los archivos seleccionados al directorio de destino.
 
-### Dados relevantes
+### Datos relevantes
 Colunas da camada `{{orig_filename}}`:
 * `` (): ;
 * `` (): .
@@ -52,10 +52,10 @@ Colunas da camada `{{orig_filename}}`:
 ## Lista de abreviaturas de tipos de logradouros
 Charset: 
 1. Abrir `OSM_dados_solicitacao.rar`.
-2. Selecionar arquivos `atributo__tipo_logradouro.csv`.
-3. Copiar arquivos selecionados para diretório alvo.
+2. Selecciona archivos `{{orig_filename}}`.
+3. Copie los archivos seleccionados al directorio de destino.
 
-### Dados relevantes
+### Datos relevantes
 Colunas [número da coluna]:
 * `` []: ;
 * `` []: .
@@ -63,10 +63,10 @@ Colunas [número da coluna]:
 ## Lista de abreviaturas de nomes de logradouros
 Charset: 
 1. Abrir ``.
-2. Selecionar arquivos `{{orig_filename}}`.
-3. Copiar arquivos selecionados para diretório alvo.
+2. Selecciona archivos `{{orig_filename}}`.
+3. Copie los archivos seleccionados al directorio de destino.
 
-### Dados relevantes
+### Datos relevantes
 Colunas [número da coluna]:
 * `` []: ;
 * `` []: .
@@ -86,3 +86,8 @@ Para outros projetos, há também dados sobre:
 # Evidências de teste
 Teste no QGIS:
 ![](qgis.png)
+
+# Make
+Para generar todas las capas descritas aquí, `make all_layers`. Todos los datos del "original filtrado" se escribirán en las tablas `ingest.layer_file` e` ingest.feature_asis`.
+
+Para la generación de una sola capa o la descarga de datos de otra fuente, o el uso de una base que no sea `ingest1`, use demasiados parámetros. Ejemplo: `make pg_db=ingest2 orig=/tmp/sandOrig nsvia_full`.
