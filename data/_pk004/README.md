@@ -16,7 +16,7 @@ Obtido de http://download.geofabrik.de/south-america/colombia-latest.osm.pbf com
 
 * Metadados extraídos pelo [Osmium](https://osmcode.org/osmium-tool/manual.html):
 
-`` ``` ``
+```
 File:
   Name: colombia-latest.osm.pbf
   Format: PBF
@@ -59,4 +59,4 @@ Data:
   Number of buffers: 39276 (avg 828 objects per buffer)
   Sum of buffer sizes: 2506962984 (2.506 GB)
   Sum of buffer capacities: 2576744448 (2.576 GB, 97% full)
-`` ``` ``
+```
