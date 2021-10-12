@@ -1,1 +1,17 @@
-#novo arquivo OSM
+pkid:     04 
+pkversion: "001"
+schemaId_input:    ref004a
+schemaId_template: ref004a
+srid: 3857
+
+files:
+    -
+        p:    1
+        file: b82a7ab85d2cb4342d51b7ab97e74be291a57c9f35001bf827d1226527449ca2.pbf
+        name: Dados OpenStreetMap
+
+layers:
+    openstreetmap:
+        p: 1a
+        file: 1
+        method: none
