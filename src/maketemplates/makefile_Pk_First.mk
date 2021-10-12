@@ -1,4 +1,4 @@
-# grep em config do yaml, removendo espaços iniciais ou finais e eventuais comentários iniciados com '#'
+
 mkme_input        = ./make_conf.yaml
 country           = CO
 baseSrc           = /opt/gits/_dg
@@ -7,6 +7,7 @@ srcPy             = $(baseSrc)/preserv/src/run_mustache.py
 mkme_input0       = $(baseSrc)/preserv-$(country)/src/maketemplates/commomFirst.yaml
 mkme_srcTplLast   = $(baseSrc)/preserv-$(country)/src/maketemplates/commomLast.mustache.mk
 
+# grep em config do yaml, removendo espaços iniciais ou finais e eventuais comentários iniciados com '#'
 thisTplFile_root  = $(shell grep 'thisTplFile_root'  < $(mkme_input0) | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
 schemaId_template = $(shell grep 'schemaId_template' < $(mkme_input)  | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
 thisTplFile       = $(thisTplFile_root)/src/maketemplates/make_$(schemaId_template).mustache.mk
@@ -14,7 +15,7 @@ thisTplFile       = $(thisTplFile_root)/src/maketemplates/make_$(schemaId_templa
 mkme_srcTpl       = $(baseSrc)/$(thisTplFile)
 mkme_output       = /tmp/digitalPresservation-make_me.mk
 
-readme_srcTpl     = $(baseSrc)/$(thisTplFile_root)/src/maketemplates/readme.mustache
+readme_srcTpl     = $(baseSrc)/preserv-$(country)/src/maketemplates/readme.mustache
 readme_output     = /tmp/README_me.md
 
 readme: $(srcPy) $(mkme_input) $(readme_srcTpl)
