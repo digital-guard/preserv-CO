@@ -55,13 +55,13 @@ geoaddress: tabname = pk$(fullPkID)_p{{file}}_geoaddress
 geoaddress: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "geoaddress" datatype (street axes)
 {{>common002_layerHeader}}
-	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
+	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "*{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
 {{>common003_shp2pgsql_multiplefiles_zipped}}
 	@echo FIM.
 
 geoaddress-clean: tabname = pk$(fullPkID)_p{{file}}_geoaddress
 geoaddress-clean:
-	rm -f "$(sandbox)/{{orig_filename}}.*" || true
+	rm -f "$(sandbox)/*{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
 {{/geoaddress}}
 
@@ -88,13 +88,13 @@ via: tabname = pk$(fullPkID)_p{{file}}_via
 via: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "via" datatype (street axes)
 {{>common002_layerHeader}}
-	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
+	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "*{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
 {{>common003_shp2pgsql_multiplefiles_zipped}}
 	@echo FIM.
 
 via-clean: tabname = pk$(fullPkID)_p{{file}}_via
 via-clean:
-	rm -f "$(sandbox)/{{orig_filename}}.*" || true
+	rm -f "$(sandbox)/*{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
 {{/via}}
 
@@ -104,13 +104,13 @@ parcel: tabname = pk$(fullPkID)_p{{file}}_parcel
 parcel: makedirs $(part{{file}}_path)
 	@# pk{{pkid}}_p{{file}} - ETL extrating to PostgreSQL/PostGIS the "parcel" datatype (street axes)
 {{>common002_layerHeader}}
-	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
+	cd $(sandbox);  7z {{7z_opts}} x -y  $(part{{file}}_path) "*{{orig_filename}}*" ; chmod -R a+rx . > /dev/null
 {{>common003_shp2pgsql_multiplefiles_zipped}}
 	@echo FIM.
 
 parcel-clean: tabname = pk$(fullPkID)_p{{file}}_parcel
 parcel-clean:
-	rm -f "$(sandbox)/{{orig_filename}}.*" || true
+	rm -f "$(sandbox)/*{{orig_filename}}.*" || true
 	psql $(pg_uri_db) -c "DROP TABLE IF EXISTS $(tabname) CASCADE"
 {{/parcel}}
 
