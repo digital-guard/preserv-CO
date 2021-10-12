@@ -20,7 +20,7 @@ layers:
     method: shp2sql
     p: 1a
     file: 1
-    sql_select: ['gid', 'TIPO_VIA', 'LABEL', 'NOMBRE_COM', 'geom']
+    sql_select: ['gid', 'TIPO_VIA', 'Coalesce(NOMBRE_COM,LABEL) AS via_name', 'LABEL', 'NOMBRE_COM', 'geom']
     orig_filename: Malla_vial
 
   geoaddress:

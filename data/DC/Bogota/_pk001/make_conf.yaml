@@ -28,7 +28,7 @@ layers:
     method: shp2sql
     p: 1a
     file: 1
-    sql_select: ['gid', 'MVINOMBRE', 'MVINALTERN', 'MVINANTIGU', 'MVIETIQUET', 'geom']
+    sql_select: ['gid', 'Coalesce(MVINALTERN,MVINOMBRE) AS via_name', 'MVINOMBRE','MVINALTERN', 'MVINANTIGU', 'MVIETIQUET', 'geom']
     orig_filename: Malla_Vial_Integral_Bogota_D_C
 
   genericvia:
