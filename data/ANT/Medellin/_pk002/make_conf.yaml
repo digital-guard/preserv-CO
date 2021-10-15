@@ -28,5 +28,5 @@ layers:
     method: shp2sql
     p: 2a
     file: 2
-    sql_select: ['gid', 'TIPO_VIA', 'VIA', 'PLACA AS house_number', 'TIPO_CRUCE', 'geom']
+    sql_select: ['gid', 'TIPO_VIA', 'VIA', 'PLACA AS house_number', 'TIPO_CRUCE', 'NOMBRE_BAR', 'NOMBRE_COM', 'ORIENTACIO', 'ORIENTAC_1', 'geom']
     orig_filename: Nomenclatura_Domiciliaria
