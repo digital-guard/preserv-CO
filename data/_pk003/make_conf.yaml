@@ -31,6 +31,7 @@ layers:
   geoaddress:
     subtype: full
     method: shp2sql
+    method_opts: -D
     p: 1a
     file: 1
     sql_select: ['gid', 'texto AS house_number',  'geom']
@@ -40,6 +41,7 @@ layers:
   via:
     subtype: full
     method: shp2sql
+    method_opts: -D
     p: 2a
     file: 2
     sql_select: ['gid', 'texto AS via_name',  'geom']
@@ -49,6 +51,7 @@ layers:
   parcel:
     subtype: none
     method: shp2sql
+    method_opts: -D
     p: 3a
     file: 3
     sql_select: ['gid', 'codigo',  'geom']
