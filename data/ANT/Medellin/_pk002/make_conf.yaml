@@ -30,3 +30,5 @@ layers:
     file: 2
     sql_select: ['gid', 'TIPO_VIA', 'VIA', 'PLACA AS house_number', 'TIPO_CRUCE', 'geom']
     orig_filename: Nomenclatura_Domiciliaria
+    
+    //
