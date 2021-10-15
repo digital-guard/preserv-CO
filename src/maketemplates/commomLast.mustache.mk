@@ -20,6 +20,7 @@ readme_output   = /tmp/README_me.md
 readme: $(srcPy) $(mkme_input) $(readme_srcTpl)
 	@echo "-- Create basic readme.md template --"
 	python3 $(srcPy) -b $(baseSrc)/ -t $(readme_srcTpl) -i $(mkme_input)  > $(readme_output)
+	chmod 777 $(readme_output)
 	@echo " Check diff, the '<' lines are the new ones... Something changed?"
 	@diff $(readme_output) ./README.md || :
 	@echo "If some changes, and no error in the changes, move the readme:"
@@ -28,11 +29,13 @@ readme: $(srcPy) $(mkme_input) $(readme_srcTpl)
 	@echo "[ENTER para rodar mv ou ^C para sair]"
 	@read _tudo_bem_
 	mv $(readme_output) ./README.md
+	chmod 777 ./README.md
 
 
 me: $(srcPy) $(mkme_input0) $(mkme_input) $(mkme_srcTpl)
 	@echo "-- Updating this make --"
 	python3 $(srcPy) -b $(baseSrc)/ -t $(mkme_srcTpl) --tplLast=$(mkme_srcTplLast) -i $(mkme_input) --input0=$(mkme_input0) > $(mkme_output)
+	chmod 777 $(mkme_output)
 	@echo " Check diff, the '<' lines are the new ones... Something changed?"
 	@diff $(mkme_output) ./makefile || :
 	@echo "If some changes, and no error in the changes, move the script:"
@@ -41,3 +44,4 @@ me: $(srcPy) $(mkme_input0) $(mkme_input) $(mkme_srcTpl)
 	@echo "[ENTER para rodar mv ou ^C para sair]"
 	@read _tudo_bem_
 	mv $(mkme_output) ./makefile
+	chmod 777 ./makefile
