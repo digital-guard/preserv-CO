@@ -12,14 +12,17 @@ mkme_input0       = $(baseSrc)/preserv-$(country)/src/maketemplates/commomFirst.
 mkme_srcTplLast   = $(baseSrc)/preserv-$(country)/src/maketemplates/commomLast.mustache.mk
 
 thisTplFile_root  = $(shell grep 'thisTplFile_root'  < $(mkme_input0) | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
+sandbox           = $(shell grep 'sandbox'           < $(mkme_input0) | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
 schemaId_template = $(shell grep 'schemaId_template' < $(mkme_input)  | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
-thisTplFile       = $(thisTplFile_root)/src/maketemplates/make_$(schemaId_template).mustache.mk
+pkid              = $(shell grep 'pkid'              < $(mkme_input)  | cut -f2 -d':' |  sed 's/^[ \t]*//' | sed 's/[\ \#].*//')
 
-mkme_srcTpl       = $(baseSrc)/$(thisTplFile)
-mkme_output       = /tmp/digitalPresservation-make_me.mk
+mkme_srcTpl       = $(baseSrc)/$(thisTplFile_root)/src/maketemplates/make_$(schemaId_template).mustache.mk
+mkme_output       = $(sandbox)/make_me.mk_$(country)_pkid$(pkid)
 
 readme_srcTpl     = $(baseSrc)/preserv-$(country)/src/maketemplates/readme.mustache
-readme_output     = /tmp/README_me.md
+readme_output     = $(sandbox)/README-draft.md_$(country)_pkid$(pkid)
+
+
 
 info:
 	@echo "=== Targets  ==="
@@ -37,7 +40,6 @@ readme: $(srcPy) $(mkme_input) $(readme_srcTpl)
 	@echo "[ENTER para rodar mv ou ^C para sair]"
 	@read _tudo_bem_
 	mv $(readme_output) ./README-draft.md
-	chmod 777 ./README-draft.md
 
 me: $(srcPy) $(mkme_input0) $(mkme_input) $(mkme_srcTpl)
 	@echo "-- Updating this make --"
