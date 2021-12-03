@@ -1,5 +1,5 @@
-pkid:     04 
-pkversion: "001"
+pkid:      04 
+pkversion: 001
 schemaId_input:    ref004a
 schemaId_template: ref004a
 srid: 4326
