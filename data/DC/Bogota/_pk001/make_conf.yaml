@@ -2,7 +2,8 @@ pkid:      1
 pkversion: 001
 schemaId_input:    ref027a
 schemaId_template: ref027a
-srid: 4686
+codec:descr_encode: srid=4686
+
 files:
   -
     p:    1
@@ -21,8 +22,12 @@ files:
     file: 8585490fefe89ff086a9234b27232cda9e29df9ad0b63d19acbd43f3760d04b5.zip
     name: Ponto de Endereço
 
-layers:
+license_evidences:
+  definition: [CC BY 4.0, cc-by, https://creativecommons.org/licenses/by/4.0/]
+  file: 64ebe2ba3cdf9a5171f020883d2d0246f2886a1daad171be1f3c4a5bf46e9386.zip
+  uri_evidency: http://web.archive.org/web/20210421104918/https://datosabiertos.bogota.gov.co/dataset/placa-domiciliaria
 
+layers:
   via:
     subtype: full
     method: shp2sql

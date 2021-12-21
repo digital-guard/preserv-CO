@@ -2,13 +2,18 @@ pkid:      04
 pkversion: 001
 schemaId_input:    ref004a
 schemaId_template: ref004a
-srid: 4326
+codec:descr_encode: srid=4326
 
 files:
     -
         p:    1
         file: b82a7ab85d2cb4342d51b7ab97e74be291a57c9f35001bf827d1226527449ca2.pbf
         name: Dados OpenStreetMap
+
+license_evidences:
+    definition: [ODbL-1.0, odbl, http://www.opendefinition.org/licenses/odc-odbl]
+    file: f0cbf591bda09880dc27cdbfcf4ee45189eb1e2c3742800c066f0b5576d81744.zip
+    uri_evidency: http://web.archive.org/web/20211012105347/https://www.openstreetmap.org/copyright
 
 layers:
     openstreetmap:
