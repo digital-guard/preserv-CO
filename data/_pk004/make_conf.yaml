@@ -1,7 +1,7 @@
 pkid:      4 
 pkversion: 001
-schemaId_input:    ref004a
-schemaId_template: ref004a
+schemaId_input:    ref027a
+schemaId_template: ref027a
 codec:descr_encode: srid=4326
 
 files:
@@ -16,7 +16,20 @@ license_evidences:
     uri_evidency: http://web.archive.org/web/20211012105347/https://www.openstreetmap.org/copyright
 
 layers:
-    openstreetmap:
+  geoaddress:
+        subtype: full
+        method: osm2sql
         p: 1a
         file: 1
-        method: none
+        orig_filename: colombia-latest.osm
+  via:
+        subtype: full
+        method: osm2sql
+        p: 1b
+        file: 1
+        orig_filename: colombia-latest.osm
+
+openstreetmap:
+    p: 1a
+    file: 1
+    method: none
