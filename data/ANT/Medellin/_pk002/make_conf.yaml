@@ -15,7 +15,7 @@ files:
     name: Nomenclatura Domiciliaria
 
 license_evidences:
-  definition: [, ,https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf]
+  definition: ['','','https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf']
   file: 92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip
 
 layers:
