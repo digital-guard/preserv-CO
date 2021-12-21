@@ -8,7 +8,7 @@ A seguir o histórico e metadados das versões utilizadas, organizadas por data 
 ## 2021-10-11
 Obtido de http://download.geofabrik.de/south-america/colombia-latest.osm.pbf com [_resumo-hash_ MD5](https://en.wikipedia.org/wiki/MD5) confirmado, e os seguintes metadados e confirmações no [arquivo PBF](https://wiki.openstreetmap.org/wiki/PBF_Format) de *197 MiB*:
 
-* Evidência de licenciamento e licença: da mesma data na `[web.archive.org](https://web.archive.org)`, [evidência em `openstreetmap.org/copyright`](http://web.archive.org/web/20211012105347/https://www.openstreetmap.org/copyright) e [texto da licença em `opendatacommons.org/licenses/odbl`](http://web.archive.org/web/20211012122558/https://opendatacommons.org/licenses/odbl/). Portanto **ODbL**.
+* Evidência de licenciamento e licença: da mesma data na [Wayback Machine](https://web.archive.org), [evidência em `openstreetmap.org/copyright`](http://web.archive.org/web/20211012105347/https://www.openstreetmap.org/copyright) e [texto da licença em `opendatacommons.org/licenses/odbl`](http://web.archive.org/web/20211012122558/https://opendatacommons.org/licenses/odbl/). Portanto **ODbL**.
 
 * [_Resumo-hash_ SHA256d](https://en.bitcoin.it/wiki/Protocol_documentation#Hashes): <small> `b82a7ab85d2cb4342d51b7ab97e74be291a57c9f35001bf827d1226527449ca2`</small>.
 
