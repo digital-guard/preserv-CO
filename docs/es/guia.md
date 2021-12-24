@@ -9,4 +9,4 @@ ver profile, etc. em  https://github.com/digital-guard/preserv-CO/wiki/Medell%C3
 
 ## Direciones en medio rural
 
-![](../assets/enderecoVazio-ex1.png)
+![](../assets/endereciRural-ex1.png)
