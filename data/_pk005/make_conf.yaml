@@ -1,0 +1,28 @@
+pkid:      3 
+pkversion: 001
+schemaId_input:    ref027a
+schemaId_template: ref027a
+codec:descr_encode: srid=4326
+
+files:
+  -
+    p:    1
+    file: 121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip
+    name: Codigo Postal Completa
+
+license_evidences:
+    definition: [Cláusula de Licencia Abierta,OpenDefinition , http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf]
+    file: 7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c.zip
+    uri_evidency: http://web.archive.org/web/20211012105347/https://www.openstreetmap.org/copyright
+
+
+layers:
+  nsvia:
+    subtype: full
+    method: shp2sql
+    p: 1a
+    file: 1
+    sql_select: ['gid', 'codigo','codigo_pos','geom']
+    orig_filename: Codigo_Postal/CODIGO_POSTAL_COMPLETA
+    orig_subfilename: Codigo_Postal/CODIGO_POSTAL_COMPLETA
+

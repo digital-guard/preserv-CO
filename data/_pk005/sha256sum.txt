@@ -1,0 +1,2 @@
+121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8 *Shapefile_Codigo_Postal.zip
+7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c *Clausula_Licencia_Abierta.zip
