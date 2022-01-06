@@ -20,7 +20,6 @@ layers:
   nsvia:
     subtype: full
     method: shp2sql
-    p: 1a
     file: 1
     sql_select: ['gid', 'codigo','codigo_pos','geom']
     orig_filename: Codigo_Postal/CODIGO_POSTAL_COMPLETA

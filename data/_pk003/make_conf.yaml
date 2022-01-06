@@ -30,7 +30,6 @@ layers:
   geoaddress:
     subtype: full
     method: shp2sql
-    p: 1a
     file: 1
     sql_select: ['gid', 'texto AS house_number',  'geom']
     orig_filename: NOMENCLATURA_DOMICILIARIA
@@ -39,7 +38,6 @@ layers:
   via:
     subtype: full
     method: shp2sql
-    p: 2a
     file: 2
     sql_select: ['gid', 'texto AS via_name',  'geom']
     orig_filename: NOMENCLATURA_VIAL
@@ -48,7 +46,6 @@ layers:
   parcel:
     subtype: none
     method: shp2sql
-    p: 3a
     file: 3
     sql_select: ['gid', 'codigo',  'geom']
     orig_filename: TERRENO
@@ -57,7 +54,6 @@ layers:
   block:
     subtype: none
     method: shp2sql
-    p: 4a
     file: 4
     sql_select: ['gid', 'codigo', 'barrio_cod', 'geom']
     orig_filename: shp/U_MANZANA
@@ -65,7 +61,6 @@ layers:
   nsvia:
     subtype: full
     method: shp2sql
-    p: 5a
     file: 5
     sql_select: ['gid', 'codigo','nombre AS nsvia_name', 'geom']
     orig_filename: shp/R_VEREDA

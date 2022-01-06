@@ -19,17 +19,14 @@ layers:
   geoaddress:
         subtype: full
         method: osm2sql
-        p: 1a
         file: 1
         orig_filename: colombia-latest.osm
   via:
         subtype: full
         method: osm2sql
-        p: 1b
         file: 1
         orig_filename: colombia-latest.osm
 
 openstreetmap:
-    p: 1a
     file: 1
     method: none
