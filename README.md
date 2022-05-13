@@ -1,4 +1,4 @@
-# Digital-preservation-CO
+# preserv-CO
 [Preservación digital](https://en.wikipedia.org/wiki/Digital_preservation) de las principales fuentes de la **base de datos AddressForAll-Colombia**, mantenida por el [Instituto AddressForAll](http://addressforall.org/).
 
 A Colombia se le asignó: en el contexto ISO&nbsp;3166&#8209;2 el geocódigo **CO** y el número **170**; en Wikidata el identificador [Q739](http://wikidata.org/entity/Q739); en OpenStreetMap el identificador de [*relación* 120027](http://osm.org/relation/120027).
