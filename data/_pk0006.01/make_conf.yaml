@@ -1,0 +1,21 @@
+pack_id: 6.1
+pkversion: 001
+schemaId_input:    ref027a  # ID do JSON-schema de input, ref no primeiro template a usar este padrão de input.
+schemaId_template: ref027a  # ID do makefile.mustache, ref no primeiro package a usar o template.
+need_commands:    7z psql shp2pgsql
+codec:descr_encode: srid=4326
+
+files:
+  -
+    p:    1
+    file: d3817192260c4a6d34be44a72c5eb06c9c9b5a6f5abf3ee56af86671d7602bb7.rar
+    name: Grade
+
+layers:
+  datagrid:
+        subtype: full
+        method: shp2sql
+        file: 1
+        sql_view: |-
+               SELECT gid, total_pers, ST_Centroid(geom) as geom FROM $(tabname)
+        orig_filename: Grid1km2_VihopeCNPV2018
