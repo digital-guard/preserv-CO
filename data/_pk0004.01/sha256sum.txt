@@ -1,2 +1,2 @@
-b82a7ab85d2cb4342d51b7ab97e74be291a57c9f35001bf827d1226527449ca2 *colombia-latest.osm.pbf
+6c0a1b8a9cb9f5b6c32e36d01d792fb90d823ad722f4271a3d8b2da13add415b *colombia-latest.osm.pbf
 f0cbf591bda09880dc27cdbfcf4ee45189eb1e2c3742800c066f0b5576d81744 *license_evidences.zip
