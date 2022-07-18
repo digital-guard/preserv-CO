@@ -19,3 +19,4 @@ layers:
         sql_view: |-
                SELECT gid, total_pers, ST_Centroid(geom) as geom FROM $(tabname)
         orig_filename: Grid1km2_VihopeCNPV2018
+        buffer_type: 3
