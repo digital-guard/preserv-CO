@@ -5,26 +5,26 @@ schemaId_template: ref027a
 codec:descr_encode: srid=4686
 
 files:
-  -
-    p:    1
-    file: 2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip
-    name: Nomenclatura Domiciliaria urbano e rural
-  -
-    p:    2
-    file: 6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip
-    name: Nomenclatura Vial urbano e rural
-  -
-    p:    3
-    file: 137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip
-    name: Terreno urbano e rural
-  -
-    p:    4
-    file: d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip
-    name: Manzana
-  -
-    p:    5
-    file: 08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip
-    name: Vereda
+- file: 2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip
+  name: Nomenclatura Domiciliaria urbano e rural
+  p: 1
+  size: 146145734
+- file: 6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip
+  name: Nomenclatura Vial urbano e rural
+  p: 2
+  size: 21369297
+- file: 137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip
+  name: Terreno urbano e rural
+  p: 3
+  size: 1477181184
+- file: d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip
+  name: Manzana
+  p: 4
+  size: 138808602
+- file: 08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip
+  name: Vereda
+  p: 5
+  size: 192682440
 
 layers:
   geoaddress:

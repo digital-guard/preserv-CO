@@ -6,10 +6,10 @@ need_commands:    7z psql shp2pgsql
 codec:descr_encode: srid=4326
 
 files:
-  -
-    p:    1
-    file: d3817192260c4a6d34be44a72c5eb06c9c9b5a6f5abf3ee56af86671d7602bb7.rar
-    name: Grade
+- file: d3817192260c4a6d34be44a72c5eb06c9c9b5a6f5abf3ee56af86671d7602bb7.rar
+  name: Grade
+  p: 1
+  size: 63688306
 
 layers:
   datagrid:

@@ -5,14 +5,14 @@ schemaId_template: ref027a
 codec:descr_encode: srid=4326
 
 files:
-  -
-    p:    1
-    file: 410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip
-    name: Malla Vial
-  -
-    p:    2
-    file: 2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip
-    name: Nomenclatura Domiciliaria
+- file: 410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip
+  name: Malla Vial
+  p: 1
+  size: 4202017
+- file: 2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip
+  name: Nomenclatura Domiciliaria
+  p: 2
+  size: 33241186
 
 license_evidences:
   definition: ['','','https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf']
