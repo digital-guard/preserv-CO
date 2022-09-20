@@ -1,7 +1,7 @@
 # preserv-CO
 [Preservación digital](https://en.wikipedia.org/wiki/Digital_preservation) de las principales fuentes de la **base de datos AddressForAll-Colombia**, mantenida por el [Instituto AddressForAll](http://addressforall.org/).
 
-A Colombia se le asignó: en el contexto [ISO&nbsp;3166](https://en.wikipedia.org/wiki/ISO_3166) el geocódigo [**CO**](https://en.wikipedia.org/wiki/ISO_3166-2:CO) y el número [**170**](https://en.wikipedia.org/wiki/ISO_3166-1_numeric); en [Wikidata](http://Wikidata.org) el identificador [Q739](http://wikidata.org/entity/Q739); en OpenStreetMap el identificador de [*relación* 120027](http://osm.org/relation/120027).
+A Colombia se le asignó: en el contexto [ISO&nbsp;3166](https://en.wikipedia.org/wiki/ISO_3166) el geocódigo [**CO**](https://en.wikipedia.org/wiki/ISO_3166-2:CO) y el número [**170**](https://en.wikipedia.org/wiki/ISO_3166-1_numeric); en [Wikidata](https://wikidata.org) el identificador [Q739](http://wikidata.org/entity/Q739); en [OpenStreetMap](https://osm.org) el identificador de [*relación* 120027](http://osm.org/relation/120027).
 
 
 ## Organización territorial
