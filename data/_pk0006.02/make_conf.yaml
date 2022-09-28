@@ -1,0 +1,24 @@
+pack_id: 06.2
+pkversion: 001
+schemaId_input: ref027a  # ID do JSON-schema de input, ref no primeiro template a usar este padrão de input.
+schemaId_template: ref027a  # ID do makefile.mustache, ref no primeiro package a usar o template.
+codec:descr_encode: srid=4686
+
+files:
+  -
+    p:    1
+    file: aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
+    name: Geoaddress
+
+layers:
+
+  geoaddress:
+    subtype: full
+    method: shp2sql
+    file: 1
+    sql_select: ['gid', 'DPTO_MPIO', 'CLASE', 'DIRECCION_NORMALIZADA' AS house_number, 'LATITUD', 'LONGITUD']
+    orig_filename: Marco_Maestro_Direcciones_Multiproposito_MMDM
+    standardized_fields:
+     -
+      name: DIRECCION_NORMALIZADA
+      standard: 'house_number'
