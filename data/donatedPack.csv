@@ -5,4 +5,4 @@ pack_id,donor_id,pack_count,lst_vers,donor_label,user_resp,accepted_date,scope,a
 00401,4,1,002,OSM,claiton,2022-07-13,CO,"Todos os dados",(self),2022-07-12,yes,ODbL,site,http://download.geofabrik.de/south-america/colombia-latest.osm.pbf,,,
 00501,5,1,001,4-72,carlos,12/07/2021,CO,,(self),,yes,OpenDefinition,site,http://visor.codigopostal.gov.co/472/visor/,,,
 00601,6,1,001,DANE,carlos,12/07/2022,CO,,(self),,yes,CC-BY,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/visor-descarga-geovisores/,,,
-00602,6,1,001,DANE,luis,27/09/2022,CO,Geoaddress,(self),2022,,,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/?cod=101,,,
+00602,6,2,001,DANE,luis,27/09/2022,CO,Geoaddress,(self),2022,,,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/?cod=101,,,
