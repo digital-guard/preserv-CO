@@ -1,8 +1,8 @@
 pack_id: 06.2
 pkversion: 001
-schemaId_input: ref027a  # ID do JSON-schema de input, ref no primeiro template a usar este padrão de input.
-schemaId_template: ref027a  # ID do makefile.mustache, ref no primeiro package a usar o template.
-codec:descr_encode: srid=4686
+schemaId_input: ref027a
+schemaId_template: ref027a
+codec:descr_encode: srid=4326
 
 files:
   -
@@ -14,10 +14,14 @@ layers:
 
   geoaddress:
     subtype: full
-    method: shp2sql
+    method: csv2sql
     file: 1
-    sql_select: ['gid', 'DPTO_MPIO', 'CLASE', 'DIRECCION_NORMALIZADA' AS house_number, 'LATITUD', 'LONGITUD']
-    orig_filename: Marco_Maestro_Direcciones_Multiproposito_MMDM
+    sql_view: |-
+        SELECT row_number() OVER () AS gid, "DPTO_MPIO" as divipola, "CLASE" as clase, "DIRECCION_NORMALIZADA" AS house_number, ST_SetSRID(ST_MakePoint(replace("LONGITUD",',','.')::float,replace("LATITUD",',','.')::float),4326) AS geom FROM $(tabname)
+    orig_filename: Marco_Maestro_Direcciones_Multiproposito.txt
+    codec: CSV~ASCIIpipe
+    after_extract: |-
+        cd $(sandbox); sed -i '17866690d' Marco_Maestro_Direcciones_Multiproposito.txt
     standardized_fields:
      -
       name: DIRECCION_NORMALIZADA
