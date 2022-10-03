@@ -1,9 +1,9 @@
 osm_id,jurisd_base_id,jurisd_local_id,name,parent_abbrev,abbrev,wikidata_id,lexlabel,isolabel_ext,ddd,info
-11334013,170,94343,Barrancominas,GUA,,1655675,barrancominas,CO-GUA-Barrancominas,,"{""area_sr"": 1.16897, ""area_km2"": 14368, ""boundary"": ""administrative"", ""DANE:area"": 12914, ""fat_deg_m"": 0.0000090, ""wikipedia"": ""es:Barrancominas"", ""entidad_te"": ""Cabecera Municipal"", ""admin_level"": 6, ""is_in:state"": ""Guainía"", ""side_estim_km"": 119.9, ""side_estim_deg"": 1.0812, ""DANE:departamento"": 95, ""elongation_factor"": 3.23}"
-11378726,170,94886,Cacahual,GUA,,1654694,cacahual,CO-GUA-Cacahual,,
-2346720,170,94001,Inírida,GUA,,130281,inirida,CO-GUA-Inirida,,"{""area_sr"": 1.28929, ""area_km2"": 15844, ""boundary"": ""administrative"", ""fat_deg_m"": 0.0000090, ""population"": 26176, ""admin_level"": 6, ""is_in:state"": ""Guainía"", ""side_estim_km"": 125.9, ""side_estim_deg"": 1.1355, ""DANE:departamento"": 94, ""elongation_factor"": 2.62}"
-11378924,170,94885,"La Guadalupe",GUA,,13195048,la.guadalupe,CO-GUA-LaGuadalupe,,
-11380591,170,94888,"Morichal Nuevo",GUA,,1655191,morichal.nuevo,CO-GUA-MorichalNuevo,,
-11380616,170,94887,"Pana Pana",GUA,,980937,pana.pana,CO-GUA-PanaPana,,
-11380495,170,94884,"Puerto Colombia",GUA,,2219881,puerto.colombia,CO-GUA-PuertoColombia,,
-11379165,170,94883,"San Felipe",GUA,,1656718,san.felipe,CO-GUA-SanFelipe,,
+11334013,170,94343,Barrancominas,GUA,,1655675,barrancominas,CO-GUA-Barrancominas,,"{""area_sr"": 1.16897, ""area_km2"": 14368, ""boundary"": ""administrative"", ""DANE:area"": 12914, ""fat_deg_m"": 0.0000090, ""wikipedia"": ""es:Barrancominas"", ""entidad_te"": ""Cabecera Municipal"", ""admin_level"": 6, ""is_in:state"": ""Guainía"", ""side_estim_km"": 119.9, ""side_estim_deg"": 1.0812, ""DANE:departamento"": 95, ""elongation_factor"": 3.33}"
+11378726,170,94886,Cacahual,GUA,,1654694,cacahual,CO-GUA-Cacahual,,"{""area_sr"": 0.18651, ""area_km2"": 2292, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 47.9, ""side_estim_deg"": 0.4319, ""elongation_factor"": 1.92}"
+2346720,170,94001,Inírida,GUA,,130281,inirida,CO-GUA-Inirida,,"{""area_sr"": 1.28928, ""area_km2"": 15844, ""boundary"": ""administrative"", ""fat_deg_m"": 0.0000090, ""population"": 26176, ""admin_level"": 6, ""is_in:state"": ""Guainía"", ""side_estim_km"": 125.9, ""side_estim_deg"": 1.1355, ""DANE:departamento"": 94, ""elongation_factor"": 2.72}"
+11378924,170,94885,"La Guadalupe",GUA,,13195048,la.guadalupe,CO-GUA-LaGuadalupe,,"{""area_sr"": 0.09616, ""area_km2"": 1183, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 34.4, ""side_estim_deg"": 0.3101, ""elongation_factor"": 1.49}"
+11380591,170,94888,"Morichal Nuevo",GUA,,1655191,morichal.nuevo,CO-GUA-MorichalNuevo,,"{""area_sr"": 0.68078, ""area_km2"": 8373, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 91.5, ""side_estim_deg"": 0.8251, ""elongation_factor"": 2.66}"
+11380616,170,94887,"Pana Pana",GUA,,980937,pana.pana,CO-GUA-PanaPana,,"{""area_sr"": 0.82495, ""area_km2"": 10148, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 100.7, ""side_estim_deg"": 0.9083, ""elongation_factor"": 2.86}"
+11380495,170,94884,"Puerto Colombia",GUA,,2219881,puerto.colombia,CO-GUA-PuertoColombia,,"{""area_sr"": 1.2614, ""area_km2"": 15512, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 124.5, ""side_estim_deg"": 1.1231, ""elongation_factor"": 2.53}"
+11379165,170,94883,"San Felipe",GUA,,1656718,san.felipe,CO-GUA-SanFelipe,,"{""area_sr"": 0.24735, ""area_km2"": 3043, ""fat_deg_m"": 0.0000090, ""side_estim_km"": 55.2, ""side_estim_deg"": 0.4973, ""elongation_factor"": 2.62}"
