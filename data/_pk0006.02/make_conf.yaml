@@ -22,7 +22,8 @@ layers:
     codec: TXT;charset=sql-ascii
     after_extract:
         - cd $(sandbox); sed -i '17866690d' Marco_Maestro_Direcciones_Multiproposito.txt
-        - cd $(sandbox); sed -i 's;\r$;;'   Marco_Maestro_Direcciones_Multiproposito.txt
+        - cd $(sandbox); sed -i 's;\r$$;;'   Marco_Maestro_Direcciones_Multiproposito.txt
+    partition_by: divipola
     standardized_fields:
      -
       name: DIRECCION_NORMALIZADA
