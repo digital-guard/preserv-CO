@@ -17,14 +17,21 @@ layers:
     method: txt2sql
     file: 1
     sql_view: |-
-        SELECT row_number() OVER () AS gid, coalesce("DPTO_MPIO"::int,-1) as divipola, "CLASE"::int as clase, "DIRECCION_NORMALIZADA" AS house_number, ST_SetSRID(ST_MakePoint(replace("LONGITUD",',','.')::float,replace("LATITUD",',','.')::float),4326) AS geom FROM $(tabname)
+        SELECT row_number() OVER () AS gid, coalesce("DPTO_MPIO"::int,-1) as divipola, "CLASE"::int as clase, TRIM("DIRECCION_NORMALIZADA") AS address, ST_SetSRID(ST_MakePoint(replace("LONGITUD",',','.')::float,replace("LATITUD",',','.')::float),4326) AS geom FROM $(tabname)
     orig_filename: Marco_Maestro_Direcciones_Multiproposito.txt
     codec: TXT;charset=sql-ascii
     after_extract:
         - cd $(sandbox); sed -i '17866690d' Marco_Maestro_Direcciones_Multiproposito.txt
-        - cd $(sandbox); sed -i 's;\r$$;;'   Marco_Maestro_Direcciones_Multiproposito.txt
+        - cd $(sandbox); sed -i 's;\r$$;;'  Marco_Maestro_Direcciones_Multiproposito.txt
     partition_by: divipola
     standardized_fields:
      -
       name: DIRECCION_NORMALIZADA
-      standard: 'house_number'
+      standard: 'address'
+    other_fields:
+     -
+      name: DPTO_MPIO
+      comment: 'Divipola number.'
+     -
+      name: CLASE
+      comment: 'clase.'
