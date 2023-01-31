@@ -6,4 +6,4 @@ pack_id,donor_id,pack_count,lst_vers,donor_label,user_resp,accepted_date,scope,a
 00501,5,1,001,4-72,carlos,2021-07-12,CO,,(self),,yes,OpenDefinition,site,http://visor.codigopostal.gov.co/472/visor/,,,
 00601,6,1,001,DANE,carlos,2022-07-12,CO,,(self),,yes,CC-BY,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/visor-descarga-geovisores/,,,
 00602,6,2,001,DANE,luis,2022-09-27,CO,Geoaddress,(self),2022,,,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/?cod=101,,,
-00701,7,1,001,Cali,carlos,2022-04-05,CO-VAC-Cali,,(self),05/04/2022,,,,,,,,,,
+00701,7,1,001,Cali,carlos,2022-04-05,CO-VAC-Cali,,(self),05/04/2022,,,,,,,
