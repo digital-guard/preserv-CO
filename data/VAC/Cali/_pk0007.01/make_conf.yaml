@@ -1,0 +1,49 @@
+pack_id: 68.1
+pkversion: 001
+schemaId_input:    ref027a
+schemaId_template: ref027a
+#codec:descr_encode: srid=6249
+srid_proj: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
+
+
+files:
+- file: a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip
+  name: BASE_012022.shp.zip
+  p: 1
+- file: e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip
+  name: POT_2014.gdb_arcgis_10.5.zip
+  p: 2
+
+
+license_evidences:
+  definition: [CC0-1.0, cc0, https://creativecommons.org/publicdomain/zero/1.0/]
+  file: 0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip
+
+layers:
+
+  parcel:
+    subtype: full
+    method: shp2sql
+    file: 1
+    sql_select: [
+        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as house_number'],
+        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as house_number']
+        ]
+    orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_TERRENO','BASE_012022.shp/ARCEDITOR01_TERRENOS_U']
+
+  nsvia:
+    subtype: none
+    method: shp2sql
+    file: 1
+    sql_select: [
+      ['IDMANZANA', 'IDBARRIOS', 'DEPAPRED', 'MUNIPRED', 'TIPO_AVALU', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'OBS'],
+      ['IDMANZANA', 'IDBARRIOS', 'DEPAPRED', 'MUNIPRED', 'TIPO_AVALU', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'OBS']
+      ]
+    orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_MANZANAS','BASE_012022.shp/ARCEDITOR01_MANZANAS_U']
+
+  via:
+    subtype: full
+    method: shp2sql
+    file: 2
+    sql_select: ['NOMBRE as via_name', 'NOM_ALTERN']
+    orig_filename: POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales
