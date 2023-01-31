@@ -5,3 +5,4 @@ local_id,scope_label,shortName,vat_id,legalName,wikidata_id,url
 4,CO,OSM,wd:P2657:365969219933-54,OpenStreetMap Foundation,6542248,https://www.osmfoundation.org/
 5,CO,4-72,nit:900.062.917-9,SERVICIOS POSTALES NACIONALES S.A. 4-72,85800448,http://visor.codigopostal.gov.co/472/visor/
 6,CO,DANE,nit:899.999.027-8,Departamento Administrativo Nacional de Estadística,1190181,https://www.dane.gov.co/
+7,CO-VAC-Cali,Cali,nit:890399011-3,Santiago de Cali,51103,https://www.cali.gov.co
