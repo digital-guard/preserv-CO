@@ -5,15 +5,15 @@ schemaId_template: ref027a
 #codec:descr_encode: srid=6249
 srid_proj: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
-
 files:
 - file: a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip
   name: BASE_012022.shp.zip
   p: 1
+  size: 489671577
 - file: e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip
   name: POT_2014.gdb_arcgis_10.5.zip
   p: 2
-
+  size: 600829688
 
 license_evidences:
   definition: [CC0-1.0, cc0, https://creativecommons.org/publicdomain/zero/1.0/]
