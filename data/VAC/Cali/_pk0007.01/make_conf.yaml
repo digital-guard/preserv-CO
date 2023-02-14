@@ -7,13 +7,17 @@ srid_proj: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=10619
 
 files:
 - file: a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip
-  name: BASE_012022.shp.zip
+  name: Arquivo convertido para shapefile BASE_012022.shp.zip
   p: 1
   size: 489671577
 - file: e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip
   name: POT_2014.gdb_arcgis_10.5.zip
   p: 2
   size: 600829688
+- file: e0df340eb4d60f90b8d777f94c4e29b855694e15ae4e2126b928c05655efe151.zip
+  name: Arquivo original BASE_012022.gdb.rar
+  p: 3
+  size: 147720813
 
 license_evidences:
   definition: [CC0-1.0, cc0, https://creativecommons.org/publicdomain/zero/1.0/]
@@ -30,6 +34,22 @@ layers:
         ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as house_number']
         ]
     orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_TERRENO','BASE_012022.shp/ARCEDITOR01_TERRENOS_U']
+    standardized_fields:
+      name: NPN
+      standard: house_number
+    other_fields:
+      name: DEPAPRED
+      name: MUNIPRED
+      name: SECTOR
+      name: COMUNA
+      name: BARRIO
+      name: MANZANA
+      name: TERRENO
+      name: PREDIO
+      name: NUMEPRED
+      name: NOM_EDIFIC
+      name: ETIQUETA
+      name: CONEXION
 
   nsvia:
     subtype: none
@@ -40,6 +60,17 @@ layers:
       ['IDMANZANA', 'IDBARRIOS', 'DEPAPRED', 'MUNIPRED', 'TIPO_AVALU', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'OBS']
       ]
     orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_MANZANAS','BASE_012022.shp/ARCEDITOR01_MANZANAS_U']
+    other_fields:
+      name: IDMANZANA
+      name: IDBARRIOS
+      name: DEPAPRED
+      name: MUNIPRED
+      name: TIPO_AVALU
+      name: SECTOR
+      name: COMUNA
+      name: BARRIO
+      name: MANZANA
+      name: OBS
 
   via:
     subtype: full
@@ -47,3 +78,10 @@ layers:
     file: 2
     sql_select: ['NOMBRE as via_name', 'NOM_ALTERN']
     orig_filename: POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales
+    standardized_fields:
+      name: NOMBRE
+      standard: via_name
+    other_fields:
+      name: NOM_ALTERN
+  comments: O arquivo BASE_012022.gdb.rar foi convertido para BASE_012022.shp.zip usando o ogr2ogr ( docker run --rm --network host -v /tmp:/tmp osgeo/gdal ogr2ogr /tmp/carlos2/BASE_012022.shp BASE_012022.gdb )
+  test_evidence: evidencia.png
