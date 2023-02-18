@@ -35,20 +35,33 @@ layers:
         ]
     orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_TERRENO','BASE_012022.shp/ARCEDITOR01_TERRENOS_U']
     standardized_fields:
+     -
       name: NPN
       standard: house_number
     other_fields:
+     -
       name: DEPAPRED
+     -
       name: MUNIPRED
+     -
       name: SECTOR
+     -
       name: COMUNA
+     -
       name: BARRIO
+     -
       name: MANZANA
+     -
       name: TERRENO
+     -
       name: PREDIO
+     -
       name: NUMEPRED
+     -
       name: NOM_EDIFIC
+     -
       name: ETIQUETA
+     -
       name: CONEXION
 
   nsvia:
@@ -61,15 +74,25 @@ layers:
       ]
     orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_MANZANAS','BASE_012022.shp/ARCEDITOR01_MANZANAS_U']
     other_fields:
+     -
       name: IDMANZANA
+     -
       name: IDBARRIOS
+     -
       name: DEPAPRED
+     -
       name: MUNIPRED
+     -
       name: TIPO_AVALU
+     -
       name: SECTOR
+     -
       name: COMUNA
+     -
       name: BARRIO
+     -
       name: MANZANA
+     -
       name: OBS
 
   via:
@@ -83,5 +106,5 @@ layers:
       standard: via_name
     other_fields:
       name: NOM_ALTERN
-  comments: O arquivo BASE_012022.gdb.rar foi convertido para BASE_012022.shp.zip usando o ogr2ogr ( docker run --rm --network host -v /tmp:/tmp osgeo/gdal ogr2ogr /tmp/carlos2/BASE_012022.shp BASE_012022.gdb )
-  test_evidence: evidencia.png
+comments: O arquivo BASE_012022.gdb.rar foi convertido para BASE_012022.shp.zip usando o ogr2ogr ( docker run --rm --network host -v /tmp:/tmp osgeo/gdal ogr2ogr /tmp/carlos2/BASE_012022.shp BASE_012022.gdb )
+test_evidence: evidencia.png
