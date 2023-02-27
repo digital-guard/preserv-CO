@@ -31,7 +31,7 @@ layers:
     subtype: full
     method: shp2sql
     file: 1
-    sql_select: ['gid', 'texto AS house_number',  'geom']
+    sql_select: ['gid', 'texto AS hnum',  'geom']
     orig_filename: NOMENCLATURA_DOMICILIARIA
     orig_subfilename: NOMENCLATURA_DOMICILIARIA
     codec: SHP.ZIP

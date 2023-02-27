@@ -30,14 +30,14 @@ layers:
     method: shp2sql
     file: 1
     sql_select: [
-        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as house_number'],
-        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as house_number']
+        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as hnum'],
+        ['DEPAPRED', 'MUNIPRED', 'SECTOR', 'COMUNA', 'BARRIO', 'MANZANA', 'TERRENO', 'PREDIO', 'NUMEPRED', 'NOM_EDIFIC', 'ETIQUETA', 'CONEXION', 'NPN as hnum']
         ]
     orig_filename: ['BASE_012022.shp/ARCEDITOR01_R_TERRENO','BASE_012022.shp/ARCEDITOR01_TERRENOS_U']
     standardized_fields:
      -
       name: NPN
-      standard: house_number
+      standard: hnum
     other_fields:
      -
       name: DEPAPRED
