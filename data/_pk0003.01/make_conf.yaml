@@ -65,5 +65,5 @@ layers:
     subtype: full
     method: shp2sql
     file: 5
-    sql_select: ['gid', 'codigo','nombre AS nsvia_name', 'geom']
+    sql_select: ['gid', 'codigo','nombre AS nsvia', 'geom']
     orig_filename: shp/R_VEREDA
