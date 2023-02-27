@@ -40,7 +40,7 @@ layers:
     subtype: full
     method: shp2sql
     file: 2
-    sql_select: ['gid', 'texto AS via_name',  'geom']
+    sql_select: ['gid', 'texto AS via',  'geom']
     orig_filename: NOMENCLATURA_VIAL
     orig_subfilename: NOMENCLATURA_VIAL
     codec: SHP.ZIP

@@ -71,7 +71,7 @@ Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/
 Nombre del archivo: `POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales`.<br/>*Descarga* e integridad: [e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip](http://dl.digital-guard.org/e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip)<br/>Descripción: POT_2014.gdb_arcgis_10.5.zip<br/>Tamaño del archivo: 600829688 bytes (573 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
 #### Datos relevantes
-* `NOMBRE` (via_name)
+* `NOMBRE` (via)
 
 #### Otros datos relevantes
 * `NOM_ALTERN`
@@ -155,7 +155,7 @@ psql postgres://postgres@localhost/ingest1 -c "INSERT INTO spatial_ref_sys (srid
 psql postgres://postgres@localhost/ingest1 -c "SELECT srid, proj4text FROM spatial_ref_sys where srid=952040"
 cd /tmp/sandbox/_pk17000000701_001; shp2pgsql -D   -s 952040 "POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales.shp" pk17000000701201_p2_via | psql -q postgres://postgres@localhost/ingest1 2> /dev/null
 
-psql postgres://postgres@localhost/ingest1 -c "SELECT ingest.any_load('shp2sql','/tmp/sandbox/_pk17000000701_001/POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales.shp','via_full','pk17000000701201_p2_via','17000000701201','e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip',array['NOMBRE as via_name', 'NOM_ALTERN'],5,1)"
+psql postgres://postgres@localhost/ingest1 -c "SELECT ingest.any_load('shp2sql','/tmp/sandbox/_pk17000000701_001/POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales.shp','via_full','pk17000000701201_p2_via','17000000701201','e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip',array['NOMBRE as via', 'NOM_ALTERN'],5,1)"
 @echo "Confira os resultados nas tabelas ingest.donated_packcomponent e ingest.feature_asis".
 @echo "Delete SRID 952040 configurado via PROJ.4 string:"
 @echo "+proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"

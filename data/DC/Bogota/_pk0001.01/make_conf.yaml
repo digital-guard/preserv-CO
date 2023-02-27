@@ -32,7 +32,7 @@ layers:
     subtype: full
     method: shp2sql
     file: 1
-    sql_select: ['gid', 'Coalesce(MVINALTERN,MVINOMBRE) AS via_name', 'MVINOMBRE','MVINALTERN', 'MVINANTIGU', 'MVIETIQUET', 'geom']
+    sql_select: ['gid', 'Coalesce(MVINALTERN,MVINOMBRE) AS via', 'MVINOMBRE','MVINALTERN', 'MVINANTIGU', 'MVIETIQUET', 'geom']
     orig_filename: Malla_Vial_Integral_Bogota_D_C
 
   parcel:
@@ -53,5 +53,5 @@ layers:
     subtype: full
     method: shp2sql
     file: 4
-    sql_select: ['gid', 'PDOTEXTO AS house_number', 'PDOCINTERI', 'PDONVIAL AS via_name', 'PDOTIPO', 'geom']
+    sql_select: ['gid', 'PDOTEXTO AS house_number', 'PDOCINTERI', 'PDONVIAL AS via', 'PDOTIPO', 'geom']
     orig_filename: pdom_shp/pdom

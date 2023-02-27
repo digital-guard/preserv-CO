@@ -99,11 +99,11 @@ layers:
     subtype: full
     method: shp2sql
     file: 2
-    sql_select: ['NOMBRE as via_name', 'NOM_ALTERN']
+    sql_select: ['NOMBRE as via', 'NOM_ALTERN']
     orig_filename: POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales
     standardized_fields:
       name: NOMBRE
-      standard: via_name
+      standard: via
     other_fields:
       name: NOM_ALTERN
 comments: O arquivo BASE_012022.gdb.rar foi convertido para BASE_012022.shp.zip usando o ogr2ogr ( docker run --rm --network host -v /tmp:/tmp osgeo/gdal ogr2ogr /tmp/carlos2/BASE_012022.shp BASE_012022.gdb )
