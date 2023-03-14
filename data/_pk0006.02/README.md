@@ -48,10 +48,10 @@ rm -rf /tmp/sandbox/_pk17000000602_001 || true
 mkdir -m 777 -p /tmp/sandbox
 mkdir -m 777 -p /tmp/sandbox/_pk17000000602_001
 mkdir -p /tmp/pg_io
-wget -P /var/www/preserv.addressforall.org/download http://dl.digital-guard.org/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
-sudo chown postgres:www-data /var/www/preserv.addressforall.org/download/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip && sudo chmod 664 /var/www/preserv.addressforall.org/download/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
+wget -P /var/www/dl.digital-guard.org http://dl.digital-guard.org/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
+sudo chown postgres:www-data /var/www/dl.digital-guard.org/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip && sudo chmod 664 /var/www/dl.digital-guard.org/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
 psql $(pg_uri_db) -c "DROP  TABLE IF EXISTS pk17000000602101_p1_geoaddress CASCADE"
-cd /tmp/sandbox/_pk17000000602_001; 7z  x -y /var/www/preserv.addressforall.org/download/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip "*Marco_Maestro_Direcciones_Multiproposito.txt*" ; chmod -R a+rwx . > /dev/null
+cd /tmp/sandbox/_pk17000000602_001; 7z  x -y /var/www/dl.digital-guard.org/aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip "*Marco_Maestro_Direcciones_Multiproposito.txt*" ; chmod -R a+rwx . > /dev/null
 cd $(sandbox); sed -i '17866690d' Marco_Maestro_Direcciones_Multiproposito.txt
 cd $(sandbox); sed -i 's;\r$$;;'  Marco_Maestro_Direcciones_Multiproposito.txt
 psql postgres://postgres@localhost/ingest1 -c "SELECT srid, proj4text FROM spatial_ref_sys where srid=4326"
