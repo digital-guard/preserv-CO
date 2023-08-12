@@ -25,6 +25,15 @@ layers:
     file: 1
     sql_select: ['gid', 'TIPO_VIA', 'Coalesce(NOMBRE_COM,LABEL) AS via', 'LABEL', 'NOMBRE_COM', 'geom']
     orig_filename: Malla_vial
+    standardized_fields:
+     -
+      name: Coalesce(NOMBRE_COM,LABEL)
+      standard: via
+    other_fields:
+     -
+      name: LABEL
+     -
+      name: NOMBRE_COM
 
   geoaddress:
     subtype: full
@@ -32,3 +41,25 @@ layers:
     file: 2
     sql_select: ['gid', 'TIPO_VIA', 'VIA AS via', 'PLACA AS hnum', 'TIPO_CRUCE', 'NOMBRE_BAR AS nsvia', 'NOMBRE_COM', 'ORIENTACIO', 'ORIENTAC_1', 'geom']
     orig_filename: Nomenclatura_Domiciliaria
+    standardized_fields:
+     -
+      name: VIA
+      standard: via
+     -
+      name: PLACA
+      standard: hnum
+     -
+      name: NOMBRE_BAR
+      standard: nsvia
+    other_fields:
+     -
+      name: TIPO_VIA
+     -
+      name: TIPO_CRUCE
+     -
+      name: NOMBRE_COM
+     -
+      name: ORIENTACIO
+     -
+      name: ORIENTAC_1
+test_evidence: qgis.png

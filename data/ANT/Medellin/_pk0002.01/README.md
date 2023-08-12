@@ -1,45 +1,68 @@
+<aside>
+<table align="right" style="padding: 1em">
+<tr><td>Paquete <a target="_git" title="Enlace canónico a git para este paquete." href="http://git.digital-guard.org/preserv-CO/blob/main/data/ANT/Medellin/_pk0002.01"><big><b>pk0002.01</b></big></a> de <small><a target="_osmcodes" title="Jurisdicción" href="https://osm.codes/CO-ANT-Medellin">CO-ANT-Medellin</a></small>
+</td></tr>
+<tr><td>
+Donante: <a rel="external" target="_doador" href="https://www.medellin.gov.co/">Alcaldía de Medellín</a>
+<br/>&nbsp; <small>NIT 890.905.211-1</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q51716472">Q51716472</a></small><br/>
+Licencia <a rel="external" target="_doador" href="https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf"><b></b></a> ( <a title="SHA256 92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip" href="http://dl.digital-guard.org/92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip"><code>92cf192...zip</code></a>)<br/>
+Obtido via <i>email;site</i> em <b>1900-01-01</b> por:
+<br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
+<br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
+</td></tr>
+<tr><td>Camadas: <a title="via" href="#-via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> <a title="geoaddress" href="#-geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
 
-# Tareas
-  
-Los nombres de las carreteras van seguidos de nombres como: calle, carrera, diagonal y transversal junto con un número de placa. Puede tener letra o bis índice. 
-La numeración del edificio tiene un complemento de letras y un complemento al número de metros que el edificio hace esquina.
-# Extracción
-A continuación se muestran los pasos para la extracción por tipo de datos relevantes.
-## Via
-SRID:  4326
-1. Abrir`Malla_Vial_Integral_Bogota_D_C-shp.zip`.
-2. Selecciona archivos `Malla_Vial_Integral_Bogota_D_C.*`.
-3. Copie los archivos seleccionados al directorio de destino.
-### Datos relevantes
-columnas:
-* `TIPO_VIA`(string):  tipo de via.
-* `LABEL`(string):  nome de via.
-* `NOMBRE_COM`(string): nombre alternativo, si es nulo, use otro campo.
+</table>
+</aside>
 
-Ejemplos 
-CL 41 = Calle 41
-Quito = Calle 42
+<section>
 
-## punto de dirección
-SRID: 4326
-1. Abrir `Nomenclatura_Domiciliaria.zip`.
-2. Selecciona archivos `Nomenclatura_Domiciliaria.*`.
-3. Copie los archivos seleccionados al directorio de destino.
+Este repositorio de metadatos describe un paquete de archivos donados al dominio público. Está siendo conservado por Digital Guard: para obtener más detalles, consulte la [documentación sobre el proceso de registro y conservación](https://wiki.addressforall.org/doc/Documentação_Digital-guard).
 
-### Datos relevantes
-columnas:
-* `TIPO_VIA`(string): tipo de via.
-* `LABEL`(string):  nome de via
-* `NOMBRE_COM` (string): nombre alternativo
-* `PLACA` (string): numeración de edificios
-* `TIPO_CRUCE` (string): ayuda con los filtros
+Nota. Este documento README fue generado por software a partir de la información contenida en el archivo [`make_conf.yaml`](http://git.digital-guard.org/preserv-CO/blob/main/data/ANT/Medellin/_pk0002.01/make_conf.yaml) en este paquete, e información adicional de los catálogos de [donantes](https://git.digital-guard.org/preserv-BR/blob/main/data/donor.csv) y [paquetes](https://git.digital-guard.org/preserv-BR/blob/main/data/donatedPack.csv).
 
-# Evidências de teste
-Teste no QGIS:
-![](qgis.png)
+# Capas de datos
 
-# Make
+Los archivos contienen "capas de datos" temáticas. Los metadatos también describen cómo se evaluó cada capa y cómo se filtraron sus datos de forma estandarizada.
 
-Para generar todas las capas descritas aquí, `make all_layers`. Todos los datos del "original filtrado" se escribirán en las tablas `ingest.layer_file` e` ingest.feature_asis`.
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
-Para la generación de una sola capa o la descarga de datos de otra fuente, o el uso de una base que no sea `ingest1`, use demasiados parámetros. Ejemplo: `make pg_db=ingest2 orig=/tmp/sandOrig nsvia_full`.
+Nombre del archivo: `Nomenclatura_Domiciliaria`<br/>*Descarga* e integridad: [2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip](http://dl.digital-guard.org/2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip)<br/>Descripción: Nomenclatura Domiciliaria<br/>Tamaño del archivo: 33241186 bytes (31.7 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
+
+#### Datos relevantes
+* `VIA` (via)
+
+* `PLACA` (hnum)
+
+* `NOMBRE_BAR` (nsvia)
+
+#### Otros datos relevantes
+* `TIPO_VIA`
+* `TIPO_CRUCE`
+* `NOMBRE_COM`
+* `ORIENTACIO`
+* `ORIENTAC_1`
+
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+
+Nombre del archivo: `Malla_vial`<br/>*Descarga* e integridad: [410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip](http://dl.digital-guard.org/410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 4202017 bytes (4.01 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
+
+#### Datos relevantes
+* `Coalesce(NOMBRE_COM,LABEL)` (via)
+
+#### Otros datos relevantes
+* `LABEL`
+* `NOMBRE_COM`
+
+# Evidencia de prueba
+<img src="qgis.png" width="400"/>
+
+</section>
+<section>
+
+# Reproducibilidad
+
+Consulte los detalles en [reproducibility.sh](http://git.digital-guard.org/preserv-CO/blob/main/data/ANT/Medellin/_pk0002.01/reproducibility.sh).
+
+</section>
+
