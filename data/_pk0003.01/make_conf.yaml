@@ -35,6 +35,10 @@ layers:
     orig_filename: NOMENCLATURA_DOMICILIARIA
     orig_subfilename: NOMENCLATURA_DOMICILIARIA
     codec: SHP.ZIP
+    standardized_fields:
+     -
+      name: texto
+      standard: hnum
 
   via:
     subtype: full
@@ -44,6 +48,10 @@ layers:
     orig_filename: NOMENCLATURA_VIAL
     orig_subfilename: NOMENCLATURA_VIAL
     codec: SHP.ZIP
+    standardized_fields:
+     -
+      name: texto
+      standard: via
 
   parcel:
     subtype: none
@@ -53,6 +61,9 @@ layers:
     orig_filename: TERRENO
     orig_subfilename: TERRENO
     codec: SHP.ZIP
+    other_fields:
+     -
+      name: codigo
 
   block:
     subtype: none
@@ -60,6 +71,11 @@ layers:
     file: 4
     sql_select: ['gid', 'codigo', 'barrio_cod', 'geom']
     orig_filename: shp/U_MANZANA
+    other_fields:
+     -
+      name: codigo
+     -
+      name: barrio_cod
 
   nsvia:
     subtype: full
@@ -67,3 +83,10 @@ layers:
     file: 5
     sql_select: ['gid', 'codigo','nombre AS nsvia', 'geom']
     orig_filename: shp/R_VEREDA
+    standardized_fields:
+     -
+      name: nombre
+      standard: nsvia
+    other_fields:
+     -
+      name: codigo
