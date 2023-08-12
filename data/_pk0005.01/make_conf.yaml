@@ -28,3 +28,4 @@ layers:
       name: codigo
      -
       name: codigo_pos
+test_evidence: qgis.png
