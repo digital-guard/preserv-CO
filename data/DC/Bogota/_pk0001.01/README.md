@@ -1,61 +1,73 @@
-# Tareas
-  
-Los nombres de las carreteras van seguidos de nombres como: calle, carrera, diagonal y transversal junto con un número de placa. Puede tener letra o bis índice. 
-La numeración del edificio tiene un complemento de letras y un complemento al número de metros que el edificio hace esquina.
-# Extracción
-A continuación se muestran los pasos para la extracción por tipo de datos relevantes.
-## Via
-SRID:  4686
-1. Abrir`Malla_Vial_Integral_Bogota_D_C-shp.zip`.
-2. Selecciona archivos `Malla_Vial_Integral_Bogota_D_C.*`.
-3. Copie los archivos seleccionados al directorio de destino.
-### Datos relevantes
-columnas:
-* `MVITIPO`(string):  tipo de via
-* `MVINOMBRE`(string):  nome de via, si es nulo, use otro campo
-* `MVINALTERN`(string): nombre alternativo
-* `MVINANTIGU` (string): nombre de ruta alternativa.
-* `MVIETIQUET` (string): nome de via. Necesito traducir siglas.
+<aside>
+<table align="right" style="padding: 1em">
+<tr><td>Paquete <a target="_git" title="Enlace canónico a git para este paquete." href="http://git.digital-guard.org/preserv-CO/blob/main/data/DC/Bogota/_pk0001.01"><big><b>pk0001.01</b></big></a> de <small><a target="_osmcodes" title="Jurisdicción" href="https://osm.codes/CO-DC-Bogota">CO-DC-Bogota</a></small>
+</td></tr>
+<tr><td>
+Donante: <a rel="external" target="_doador" href="https://bogota.gov.co/">Alcaldia Mayor de Bogota D.C.</a>
+<br/>&nbsp; <small>NIT 899.999.061-9</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q51716465">Q51716465</a></small><br/>
+Licencia <a rel="external" target="_doador" href="https://creativecommons.org/licenses/by/4.0/"><b>CC BY 4.0</b></a> (cc-by <a title="SHA256 64ebe2ba3cdf9a5171f020883d2d0246f2886a1daad171be1f3c4a5bf46e9386.zip" href="http://dl.digital-guard.org/64ebe2ba3cdf9a5171f020883d2d0246f2886a1daad171be1f3c4a5bf46e9386.zip"><code>64ebe2b...zip</code></a><a title="SHA256 http://web.archive.org/web/20210421104918/https://datosabiertos.bogota.gov.co/dataset/placa-domiciliaria" href="http://web.archive.org/web/20210421104918/https://datosabiertos.bogota.gov.co/dataset/placa-domiciliaria"><code>webarchive</code></a>)<br/>
+Obtido via <i>site</i> em <b>1900-01-01</b> por:
+<br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
+<br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
+</td></tr>
+<tr><td>Camadas: <a title="via" href="#-via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> <a title="block" href="#-block"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/></a> <a title="parcel" href="#-parcel"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/></a> <a title="geoaddress" href="#-geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
 
-Ejemplo Diagonal 32B bis A (sur)
-MVIETIQUET = DG 32BBISA S
+</table>
+</aside>
 
-## Lote
-SRID: 4686
-1. Abrir `dlote_shp.zip`.
-2. Selecciona archivos `lote_shp/lote.*`.
-3. Copie los archivos seleccionados al directorio de destino.
+<section>
 
-### Dados relevantes
-Sin datos relevantes
+Este repositorio de metadatos describe un paquete de archivos donados al dominio público. Está siendo conservado por Digital Guard: para obtener más detalles, consulte la [documentación sobre el proceso de registro y conservación](https://wiki.addressforall.org/doc/Documentação_Digital-guard).
 
-## Bloques
-SRID: 4686
-1. Abrir `dmanz_shp.zip`.
-2. Selecciona archivos `manz_shp/manz.*`.
-3. Copie los archivos seleccionados al directorio de destino.
+Nota. Este documento README fue generado por software a partir de la información contenida en el archivo [`make_conf.yaml`](http://git.digital-guard.org/preserv-CO/blob/main/data/DC/Bogota/_pk0001.01/make_conf.yaml) en este paquete, e información adicional de los catálogos de [donantes](https://git.digital-guard.org/preserv-BR/blob/main/data/donor.csv) y [paquetes](https://git.digital-guard.org/preserv-BR/blob/main/data/donatedPack.csv).
 
-### Dados relevantes
-Sin datos relevantes
+# Capas de datos
 
-## punto de dirección
-SRID: 4686
-1. Abrir `dpdom_shp.zip`.
-2. Selecciona archivos `pdom_shp/pdom.*`.
-3. Copie los archivos seleccionados al directorio de destino.
+Los archivos contienen "capas de datos" temáticas. Los metadatos también describen cómo se evaluó cada capa y cómo se filtraron sus datos de forma estandarizada.
 
-### Datos relevantes
-columnas:
-* `PDOTEXTO`(string):  número de casa
-* `PDOCINTERI`(string):  complemento de número de casa
-* `PDOTIPO` (string): auxilio en nombre de ruta.
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
-# Evidências de teste
-Teste no QGIS:
-![](qgis.png)
+Nombre del archivo: `pdom_shp/pdom`<br/>*Descarga* e integridad: [8585490fefe89ff086a9234b27232cda9e29df9ad0b63d19acbd43f3760d04b5.zip](http://dl.digital-guard.org/8585490fefe89ff086a9234b27232cda9e29df9ad0b63d19acbd43f3760d04b5.zip)<br/>Descripción: Ponto de Endereço<br/>Tamaño del archivo: 112604071 bytes (107.39 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
-# Make
+#### Datos relevantes
+* `PDOTEXTO` (hnum)
 
-Para generar todas las capas descritas aquí, `make all_layers`. Todos los datos del "original filtrado" se escribirán en las tablas `ingest.layer_file` e` ingest.feature_asis`.
+* `PDONVIAL` (via)
 
-Para la generación de una sola capa o la descarga de datos de otra fuente, o el uso de una base que no sea `ingest1`, use demasiados parámetros. Ejemplo: `make pg_db=ingest2 orig=/tmp/sandOrig nsvia_full`.
+#### Otros datos relevantes
+* `PDOCINTERI`
+* `PDOTIPO`
+
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
+
+Nombre del archivo: `lote_shp/lote`<br/>*Descarga* e integridad: [fff3ae00d851d47c02d3b510d856526693a47250b4739b57cc6eaa88e0f57acd.zip](http://dl.digital-guard.org/fff3ae00d851d47c02d3b510d856526693a47250b4739b57cc6eaa88e0f57acd.zip)<br/>Descripción: Lotes<br/>Tamaño del archivo: 193452670 bytes (184.49 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/> block
+
+Nombre del archivo: `manz_shp/manz`<br/>*Descarga* e integridad: [ed072b0391d6c4a9bd76237b4ebb55de4f00ff0b73325d715d35baf29f41278e.zip](http://dl.digital-guard.org/ed072b0391d6c4a9bd76237b4ebb55de4f00ff0b73325d715d35baf29f41278e.zip)<br/>Descripción: Quadras<br/>Tamaño del archivo: 31839011 bytes (30.36 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+
+Nombre del archivo: `Malla_Vial_Integral_Bogota_D_C`<br/>*Descarga* e integridad: [befe4d8cbbd51162e70f4f3dc4065acc430e20f2161073fabd007c575cd72098.zip](http://dl.digital-guard.org/befe4d8cbbd51162e70f4f3dc4065acc430e20f2161073fabd007c575cd72098.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 15335021 bytes (14.62 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+
+#### Datos relevantes
+* `Coalesce(MVINALTERN,MVINOMBRE)` (via)
+
+#### Otros datos relevantes
+* `MVINOMBRE`
+* `MVINALTERN`
+* `MVINANTIGU`
+* `MVIETIQUET`
+
+# Evidencia de prueba
+<img src="qgis.png" width="400"/>
+
+</section>
+<section>
+
+# Reproducibilidad
+
+Consulte los detalles en [reproducibility.sh](http://git.digital-guard.org/preserv-CO/blob/main/data/DC/Bogota/_pk0001.01/reproducibility.sh).
+
+</section>
+

@@ -34,6 +34,19 @@ layers:
     file: 1
     sql_select: ['gid', 'Coalesce(MVINALTERN,MVINOMBRE) AS via', 'MVINOMBRE','MVINALTERN', 'MVINANTIGU', 'MVIETIQUET', 'geom']
     orig_filename: Malla_Vial_Integral_Bogota_D_C
+    standardized_fields:
+     -
+      name: Coalesce(MVINALTERN,MVINOMBRE)
+      standard: via
+    other_fields:
+     -
+      name: MVINOMBRE
+     -
+      name: MVINALTERN
+     -
+      name: MVINANTIGU
+     -
+      name: MVIETIQUET
 
   parcel:
     subtype: none
@@ -55,3 +68,16 @@ layers:
     file: 4
     sql_select: ['gid', 'PDOTEXTO AS hnum', 'PDOCINTERI', 'PDONVIAL AS via', 'PDOTIPO', 'geom']
     orig_filename: pdom_shp/pdom
+    standardized_fields:
+     -
+      name: PDOTEXTO
+      standard: hnum
+     -
+      name: PDONVIAL
+      standard: via
+    other_fields:
+     -
+      name: PDOCINTERI
+     -
+      name: PDOTIPO
+test_evidence: qgis.png
