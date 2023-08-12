@@ -23,3 +23,8 @@ layers:
     file: 1
     sql_select: ['gid', 'codigo','codigo_pos','geom']
     orig_filename: Codigo_Postal/CODIGO_POSTAL_COMPLETA
+    other_fields:
+     -
+      name: codigo
+     -
+      name: codigo_pos
