@@ -1,9 +1,9 @@
-pack_id,donor_id,pack_count,lst_vers,donor_label,user_resp,accepted_date,scope,about,author,contentReferenceTime,license_is_explicit,license,uri_objType,uri,isAt_UrbiGIS,status,statusUpdateDate
-00101,1,1,001,DC-BGT,carlos,1900-01-01,CO-DC-Bogota,,(self),,yes,CC-BY,site,https://datosabiertos.bogota.gov.co/dataset,,,
-00201,2,1,001,ANT-MED,carlos,1900-01-01,CO-ANT-Medellin,,(self),,yes,Open data,site,https://geomedellin-m-medellin.opendata.arcgis.com/datasets/,,,
-00301,3,1,001,IGAC,carlos,1900-01-01,CO,,(self),,yes,cc-by-4.0,site,https://geoportal.igac.gov.co/contenido/datos-abiertos-catastro,,,
-00401,4,1,002,OSM,claiton,2022-07-13,CO,"Todos os dados",(self),2022-07-12,yes,odbl-1.0,site,http://download.geofabrik.de/south-america/colombia-latest.osm.pbf,,,
-00501,5,1,001,4-72,carlos,2021-07-12,CO,,(self),,yes,OpenDefinition,site,http://visor.codigopostal.gov.co/472/visor/,,,
-00601,6,1,001,DANE,carlos,2022-07-12,CO,,(self),,yes,CC-BY,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/visor-descarga-geovisores/,,,
-00602,6,2,001,DANE,luis,2022-09-27,CO,Geoaddress,(self),2022,,,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/?cod=101,,,
-00701,7,1,001,Cali,carlos,2022-04-05,CO-VAC-Cali,,(self),05/04/2022,,,,,,,
+pack_id,donor_id,pack_count,lst_vers,user_resp,accepted_date,scope,about,author,contentReferenceTime,license_is_explicit,license,uri_objType,uri,isAt_UrbiGIS,status,statusUpdateDate
+00101,1,1,001,carlos,1900-01-01,CO-DC-Bogota,,(self),,yes,CC-BY,site,https://datosabiertos.bogota.gov.co/dataset,,,
+00201,2,1,001,carlos,1900-01-01,CO-ANT-Medellin,,(self),,yes,Open data,site,https://geomedellin-m-medellin.opendata.arcgis.com/datasets/,,,
+00301,3,1,001,carlos,1900-01-01,CO,,(self),,yes,cc-by-4.0,site,https://geoportal.igac.gov.co/contenido/datos-abiertos-catastro,,,
+00401,4,1,002,claiton,2022-07-13,CO,"Todos os dados",(self),2022-07-12,yes,odbl-1.0,site,http://download.geofabrik.de/south-america/colombia-latest.osm.pbf,,,
+00501,5,1,001,carlos,2021-07-12,CO,,(self),,yes,OpenDefinition,site,http://visor.codigopostal.gov.co/472/visor/,,,
+00601,6,1,001,carlos,2022-07-12,CO,,(self),,yes,CC-BY,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/visor-descarga-geovisores/,,,
+00602,6,2,001,luis,2022-09-27,CO,Geoaddress,(self),2022,,,site,https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/?cod=101,,,
+00701,7,1,001,carlos,2022-04-05,CO-VAC-Cali,,(self),05/04/2022,,,,,,,
