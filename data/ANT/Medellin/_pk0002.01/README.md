@@ -11,7 +11,7 @@ Obtido via <i>site</i> em <b>01/01/1900</b> por:
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
 </td></tr>
 <tr><td>Camadas: <a title="via" href="#-via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> <a title="geoaddress" href="#-geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
-<tr><td>Datos publicados en <a href="https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01"></a><br/><a href="#reproducibilidad">Reproducible</a></td></tr>
+<tr><td>Datos publicados en <a href="https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01">preservCutGeo-CO2021</a><br/><a href="#reproducibilidad">Reproducible</a></td></tr>
 <tr><td>Visualización: <a title="geoaddress" href="https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> <a title="via" href="https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> </td></tr>
 </table>
 </aside>
