@@ -45,7 +45,8 @@ Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_MANZANAS', 'BASE_012022.shp
 #### Filtrado de resultados y su publicación
 20568936 bytes (19.62 <abbr title="mebibyte">MiB</abbr>)<br/>15270 polígonos con 448.22 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.71 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/nsvia](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/nsvia)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
+#### Visualización
+[https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/nsvia](https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/nsvia)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
 
 Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/ARCEDITOR01_TERRENOS_U']`<br/>*Descarga* e integridad: [a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip](http://dl.digital-guard.org/a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip)<br/>Descripción: Arquivo convertido para shapefile BASE_012022.shp.zip<br/>Tamaño del archivo: 489671577 bytes (466.99 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
@@ -69,7 +70,8 @@ Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/
 #### Filtrado de resultados y su publicación
 130258311 bytes (124.22 <abbr title="mebibyte">MiB</abbr>)<br/>345901 polígonos con 491.68 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.67 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/parcel](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/parcel)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+#### Visualización
+[https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/parcel](https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/parcel)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
 Nombre del archivo: `POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales`<br/>*Descarga* e integridad: [e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip](http://dl.digital-guard.org/e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip)<br/>Descripción: POT_2014.gdb_arcgis_10.5.zip<br/>Tamaño del archivo: 600829688 bytes (573 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
@@ -81,6 +83,9 @@ Nombre del archivo: `POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_v
 
 #### Filtrado de resultados y su publicación
 2220676 bytes (2.12 <abbr title="mebibyte">MiB</abbr>)<br/>10560 segmentos con 2867.03 <abbr title="quilômetros">km</abbr><br/>densidad media: 4.98 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/via](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/VAC/Cali/_pk0007.01/via)
+
+#### Visualización
+[https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/via](https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/via)
 
 # Evidencia de prueba
 <img src="evidencia.png" width="400"/>

@@ -33,7 +33,8 @@ Nombre del archivo: `manz_shp/manz`<br/>*Descarga* e integridad: [ed072b0391d6c4
 #### Filtrado de resultados y su publicación
 47194137 bytes (45.01 <abbr title="mebibyte">MiB</abbr>)<br/>43944 polígonos con 283.97 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.58 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/block](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/block)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
+#### Visualización
+[https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/block](https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/block)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
 Nombre del archivo: `pdom_shp/pdom`<br/>*Descarga* e integridad: [8585490fefe89ff086a9234b27232cda9e29df9ad0b63d19acbd43f3760d04b5.zip](http://dl.digital-guard.org/8585490fefe89ff086a9234b27232cda9e29df9ad0b63d19acbd43f3760d04b5.zip)<br/>Descripción: Ponto de Endereço<br/>Tamaño del archivo: 112604071 bytes (107.39 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
@@ -49,14 +50,16 @@ Nombre del archivo: `pdom_shp/pdom`<br/>*Descarga* e integridad: [8585490fefe89f
 #### Filtrado de resultados y su publicación
 74014323 bytes (70.59 <abbr title="mebibyte">MiB</abbr>)<br/>1429445 pontos<br/>densidad media: 5363.66 pontos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/geoaddress](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/geoaddress)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
+#### Visualización
+[https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/geoaddress](https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/geoaddress)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
 
 Nombre del archivo: `lote_shp/lote`<br/>*Descarga* e integridad: [fff3ae00d851d47c02d3b510d856526693a47250b4739b57cc6eaa88e0f57acd.zip](http://dl.digital-guard.org/fff3ae00d851d47c02d3b510d856526693a47250b4739b57cc6eaa88e0f57acd.zip)<br/>Descripción: Lotes<br/>Tamaño del archivo: 193452670 bytes (184.49 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Filtrado de resultados y su publicación
 313633595 bytes (299.1 <abbr title="mebibyte">MiB</abbr>)<br/>906158 polígonos con 1423.73 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.76 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/parcel](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/parcel)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+#### Visualización
+[https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/parcel](https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/parcel)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
 Nombre del archivo: `Malla_Vial_Integral_Bogota_D_C`<br/>*Descarga* e integridad: [befe4d8cbbd51162e70f4f3dc4065acc430e20f2161073fabd007c575cd72098.zip](http://dl.digital-guard.org/befe4d8cbbd51162e70f4f3dc4065acc430e20f2161073fabd007c575cd72098.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 15335021 bytes (14.62 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
@@ -71,6 +74,9 @@ Nombre del archivo: `Malla_Vial_Integral_Bogota_D_C`<br/>*Descarga* e integridad
 
 #### Filtrado de resultados y su publicación
 13914057 bytes (13.27 <abbr title="mebibyte">MiB</abbr>)<br/>136578 segmentos con 9251.55 <abbr title="quilômetros">km</abbr><br/>densidad media: 17.33 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/via](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/DC/Bogota/_pk0001.01/via)
+
+#### Visualización
+[https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/via](https://viz.addressforall.org/CO-DC-Bogota/_pk0001.01/via)
 
 # Evidencia de prueba
 <img src="qgis.png" width="400"/>

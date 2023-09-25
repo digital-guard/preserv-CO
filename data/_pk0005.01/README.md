@@ -37,6 +37,9 @@ Nombre del archivo: `Codigo_Postal/CODIGO_POSTAL_COMPLETA`<br/>*Descarga* e inte
 #### Filtrado de resultados y su publicación
 96158824 bytes (91.7 <abbr title="mebibyte">MiB</abbr>)<br/>3557 polígonos con 535298.51 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.76 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0005.01/nsvia](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0005.01/nsvia)
 
+#### Visualización
+[https://viz.addressforall.org/CO/_pk0005.01/nsvia](https://viz.addressforall.org/CO/_pk0005.01/nsvia)
+
 # Evidencia de prueba
 <img src="qgis.png" width="400"/>
 

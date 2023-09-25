@@ -37,7 +37,8 @@ Nombre del archivo: `shp/U_MANZANA`<br/>*Descarga* e integridad: [d49ab53b06be49
 #### Filtrado de resultados y su publicación
 253118117 bytes (241.39 <abbr title="mebibyte">MiB</abbr>)<br/>221501 polígonos con 1498.52 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.04 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0003.01/block](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0003.01/block)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+#### Visualización
+[https://viz.addressforall.org/CO/_pk0003.01/block](https://viz.addressforall.org/CO/_pk0003.01/block)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
 Nombre del archivo: `NOMENCLATURA_VIAL`<br/>*Descarga* e integridad: [6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip](http://dl.digital-guard.org/6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip)<br/>Descripción: Nomenclatura Vial urbano e rural<br/>Tamaño del archivo: 21369297 bytes (20.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
@@ -47,7 +48,8 @@ Nombre del archivo: `NOMENCLATURA_VIAL`<br/>*Descarga* e integridad: [6f35dbfe7a
 #### Filtrado de resultados y su publicación
 41913102 bytes (39.97 <abbr title="mebibyte">MiB</abbr>)<br/>189371 segmentos con 28765.4 <abbr title="quilômetros">km</abbr><br/>densidad media: 0.16 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0003.01/via](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/_pk0003.01/via)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
+#### Visualización
+[https://viz.addressforall.org/CO/_pk0003.01/via](https://viz.addressforall.org/CO/_pk0003.01/via)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
 Nombre del archivo: `NOMENCLATURA_DOMICILIARIA`<br/>*Descarga* e integridad: [2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip](http://dl.digital-guard.org/2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip)<br/>Descripción: Nomenclatura Domiciliaria urbano e rural<br/>Tamaño del archivo: 146145734 bytes (139.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 

@@ -47,7 +47,8 @@ Nombre del archivo: `Nomenclatura_Domiciliaria`<br/>*Descarga* e integridad: [26
 #### Filtrado de resultados y su publicación
 19929610 bytes (19.01 <abbr title="mebibyte">MiB</abbr>)<br/>384911 pontos<br/>densidad media: 4220.5 pontos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01/geoaddress](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01/geoaddress)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+#### Visualización
+[https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/geoaddress](https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/geoaddress)## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
 Nombre del archivo: `Malla_vial`<br/>*Descarga* e integridad: [410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip](http://dl.digital-guard.org/410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 4202017 bytes (4.01 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
 
@@ -60,6 +61,9 @@ Nombre del archivo: `Malla_vial`<br/>*Descarga* e integridad: [410d02a87e8d29558
 
 #### Filtrado de resultados y su publicación
 6529686 bytes (6.23 <abbr title="mebibyte">MiB</abbr>)<br/>40956 segmentos con 3327.98 <abbr title="quilômetros">km</abbr><br/>densidad media: 16.12 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01/via](https://git.digital-guard.org/preservCutGeo-CO2021/tree/main/data/ANT/Medellin/_pk0002.01/via)
+
+#### Visualización
+[https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/via](https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/via)
 
 # Evidencia de prueba
 <img src="qgis.png" width="400"/>
