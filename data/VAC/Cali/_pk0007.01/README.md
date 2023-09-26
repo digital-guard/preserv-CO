@@ -1,6 +1,6 @@
 <aside>
 <table align="right" style="padding: 1em">
-<tr><td>Paquete <a target="_git" title="Enlace canónico a git para este paquete." href="https://git.digital-guard.org/preserv-CO/blob/main/data/VAC/Cali/_pk0007.01"><big><b>pk0007.01</b></big></a> de <small><a target="_afacodes" title="Jurisdicción" href="https://afa.codes/CO-VAC-Cali">CO-VAC-Cali</a></small>
+<tr><td>Paquete <big><b>pk0007.01</b></big> de <small><a target="_afacodes" title="Jurisdicción" href="https://afa.codes/CO-VAC-Cali">CO-VAC-Cali</a></small>
 </td></tr>
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.cali.gov.co">Santiago de Cali</a>
