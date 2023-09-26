@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.igac.gov.co/">Instituto Geográfico Agustín Codazzi</a>
 <br/>&nbsp; <small>NIT 899.999.004-9</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q3152313">Q3152313</a></small><br/>
-
+Licencia <a rel="external" target="_doador" href="https://creativecommons.org/licenses/by/4.0/ "><b>CC-BY-4.0</b></a> (by)<br/>
 Obtido via <i>site</i> em <b>01/01/1900</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
