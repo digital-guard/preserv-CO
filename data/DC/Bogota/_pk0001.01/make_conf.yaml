@@ -23,7 +23,7 @@ files:
   size: 112604071
 
 license_evidences:
-  definition: [CC0-1.0, cc0, 'https://creativecommons.org/publicdomain/zero/1.0/']
+  definition: [CC-BY-4.0, by, 'https://creativecommons.org/licenses/by/4.0/ ']
   file: 64ebe2ba3cdf9a5171f020883d2d0246f2886a1daad171be1f3c4a5bf46e9386.zip
   uri_evidency: http://web.archive.org/web/20210421104918/https://datosabiertos.bogota.gov.co/dataset/placa-domiciliaria
 

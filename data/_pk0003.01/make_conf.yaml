@@ -27,7 +27,7 @@ files:
   size: 192682440
 
 license_evidences:
-  definition: [CC0-1.0, cc0, 'https://creativecommons.org/publicdomain/zero/1.0/']
+  definition: [CC-BY-4.0, by, 'https://creativecommons.org/licenses/by/4.0/ ']
 
 layers:
   geoaddress:
