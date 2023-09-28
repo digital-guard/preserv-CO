@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.cali.gov.co">Santiago de Cali</a>
 <br/>&nbsp; <small>NIT 890399011-3</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q51103">Q51103</a></small><br/>
-Licencia <a rel="external" target="_doador" href="https://creativecommons.org/publicdomain/zero/1.0/"><b>CC0-1.0</b></a> (cc0 <a title="SHA256 0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip" href="http://dl.digital-guard.org/0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip"><code>0b0f9b5...zip</code></a>)<br/>
+Licencia <a rel="external" target="_doador" href="https://creativecommons.org/publicdomain/zero/1.0/"><b>CC0-1.0</b></a> (cc0 <a title="SHA256 0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip" href="https://dl.digital-guard.org/0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip"><code>0b0f9b5...zip</code></a>)<br/>
 Obtido via <i></i> em <b>05/04/2022</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
@@ -28,7 +28,7 @@ Los archivos contienen "capas de datos" temáticas. Los metadatos también descr
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
 
-Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_MANZANAS', 'BASE_012022.shp/ARCEDITOR01_MANZANAS_U']`<br/>*Descarga* e integridad: [a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip](http://dl.digital-guard.org/a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip)<br/>Descripción: Arquivo convertido para shapefile BASE_012022.shp.zip<br/>Tamaño del archivo: 489671577 bytes (466.99 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
+Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_MANZANAS', 'BASE_012022.shp/ARCEDITOR01_MANZANAS_U']`<br/>*Descarga* e integridad: [a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip](https://dl.digital-guard.org/a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip)<br/>Descripción: Arquivo convertido para shapefile BASE_012022.shp.zip<br/>Tamaño del archivo: 489671577 bytes (466.99 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
 #### Otros datos relevantes
 * `IDMANZANA`
@@ -49,7 +49,7 @@ Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_MANZANAS', 'BASE_012022.shp
 [https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/nsvia](https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/nsvia)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
 
-Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/ARCEDITOR01_TERRENOS_U']`<br/>*Descarga* e integridad: [a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip](http://dl.digital-guard.org/a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip)<br/>Descripción: Arquivo convertido para shapefile BASE_012022.shp.zip<br/>Tamaño del archivo: 489671577 bytes (466.99 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
+Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/ARCEDITOR01_TERRENOS_U']`<br/>*Descarga* e integridad: [a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip](https://dl.digital-guard.org/a3070e1b3136cae6068a6ecdd1f0b665d4b1430ca83429553db29ae72658e1f0.zip)<br/>Descripción: Arquivo convertido para shapefile BASE_012022.shp.zip<br/>Tamaño del archivo: 489671577 bytes (466.99 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
 #### Datos relevantes
 * `NPN` (hnum)
@@ -75,7 +75,7 @@ Nombre del archivo: `['BASE_012022.shp/ARCEDITOR01_R_TERRENO', 'BASE_012022.shp/
 [https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/parcel](https://viz.addressforall.org/CO-VAC-Cali/_pk0007.01/parcel)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
-Nombre del archivo: `POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales`<br/>*Descarga* e integridad: [e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip](http://dl.digital-guard.org/e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip)<br/>Descripción: POT_2014.gdb_arcgis_10.5.zip<br/>Tamaño del archivo: 600829688 bytes (573 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
+Nombre del archivo: `POT_2014.gdb_arcgis_10.5/Ejesviales/bcs_nomenclatura_ejes_viales`<br/>*Descarga* e integridad: [e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip](https://dl.digital-guard.org/e42148b3fc8a262446d16e7e48aa95fcb000d0fab0ffcd35d2523b566becfcf1.zip)<br/>Descripción: POT_2014.gdb_arcgis_10.5.zip<br/>Tamaño del archivo: 600829688 bytes (573 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: +proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs
 
 #### Datos relevantes
 * `NOMBRE` (via)

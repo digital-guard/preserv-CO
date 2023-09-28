@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.medellin.gov.co/">Alcaldía de Medellín</a>
 <br/>&nbsp; <small>NIT 890.905.211-1</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q51716472">Q51716472</a></small><br/>
-Licencia <a rel="external" target="_doador" href="https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf"><b></b></a> ( <a title="SHA256 92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip" href="http://dl.digital-guard.org/92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip"><code>92cf192...zip</code></a>)<br/>
+Licencia <a rel="external" target="_doador" href="https://www.medellin.gov.co/servicios/metadatos_gis/METADATO_CATASTRO/LICENCIA_ABIERTA_O_CONDICIONES_DE_USO_PARA_DATOS_ABIERTOS_CATASTRO_MEDELLIN_V1.pdf"><b></b></a> ( <a title="SHA256 92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip" href="https://dl.digital-guard.org/92cf1923118d523b332a089aff689e4645c1c619c361be98787a4e529f37b989.zip"><code>92cf192...zip</code></a>)<br/>
 Obtido via <i>site</i> em <b>01/01/1900</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
@@ -28,7 +28,7 @@ Los archivos contienen "capas de datos" temáticas. Los metadatos también descr
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
-Nombre del archivo: `Nomenclatura_Domiciliaria`<br/>*Descarga* e integridad: [2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip](http://dl.digital-guard.org/2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip)<br/>Descripción: Nomenclatura Domiciliaria<br/>Tamaño del archivo: 33241186 bytes (31.7 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
+Nombre del archivo: `Nomenclatura_Domiciliaria`<br/>*Descarga* e integridad: [2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip](https://dl.digital-guard.org/2630981b3e7c796f23a938d8c727ed47cf890547336ead89738b96e67fe62e7a.zip)<br/>Descripción: Nomenclatura Domiciliaria<br/>Tamaño del archivo: 33241186 bytes (31.7 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
 
 #### Datos relevantes
 * `VIA` (via)
@@ -51,7 +51,7 @@ Nombre del archivo: `Nomenclatura_Domiciliaria`<br/>*Descarga* e integridad: [26
 [https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/geoaddress](https://viz.addressforall.org/CO-ANT-Medellin/_pk0002.01/geoaddress)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
-Nombre del archivo: `Malla_vial`<br/>*Descarga* e integridad: [410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip](http://dl.digital-guard.org/410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 4202017 bytes (4.01 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
+Nombre del archivo: `Malla_vial`<br/>*Descarga* e integridad: [410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip](https://dl.digital-guard.org/410d02a87e8d2955849ba644ed8830f3d6761b31f4d0dbf044d39975ffc02be1.zip)<br/>Descripción: Malla Vial<br/>Tamaño del archivo: 4202017 bytes (4.01 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
 
 #### Datos relevantes
 * `Coalesce(NOMBRE_COM,LABEL)` (via)

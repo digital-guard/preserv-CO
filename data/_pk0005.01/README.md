@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="http://visor.codigopostal.gov.co/472/visor/">SERVICIOS POSTALES NACIONALES S.A. 4-72</a>
 <br/>&nbsp; <small>NIT 900.062.917-9</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q85800448">Q85800448</a></small><br/>
-Licencia <a rel="external" target="_doador" href="http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf"><b>Licencia-codigopostal.gov.co</b></a> (CC-BY? <a title="SHA256 7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c.zip" href="http://dl.digital-guard.org/7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c.zip"><code>7502b5c...zip</code></a><a title="SHA256 https://web.archive.org/web/20210907144722/http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf" href="https://web.archive.org/web/20210907144722/http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf"><code>webarchive</code></a>)<br/>
+Licencia <a rel="external" target="_doador" href="http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf"><b>Licencia-codigopostal.gov.co</b></a> (CC-BY? <a title="SHA256 7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c.zip" href="https://dl.digital-guard.org/7502b5c3cd701ac21c126c8d6e133bcf2d082e7d08e37acf7d1977e636e0488c.zip"><code>7502b5c...zip</code></a><a title="SHA256 https://web.archive.org/web/20210907144722/http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf" href="https://web.archive.org/web/20210907144722/http://visor.codigopostal.gov.co/472/visor/Clausula_Licencia_Abierta.pdf"><code>webarchive</code></a>)<br/>
 Obtido via <i>site</i> em <b>12/07/2021</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
@@ -28,7 +28,7 @@ Los archivos contienen "capas de datos" temáticas. Los metadatos también descr
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
 
-Nombre del archivo: `Codigo_Postal/CODIGO_POSTAL_COMPLETA`<br/>*Descarga* e integridad: [121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip](http://dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip)<br/>Descripción: Codigo Postal Completa<br/>Tamaño del archivo: 68521569 bytes (65.35 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
+Nombre del archivo: `Codigo_Postal/CODIGO_POSTAL_COMPLETA`<br/>*Descarga* e integridad: [121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip](https://dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip)<br/>Descripción: Codigo Postal Completa<br/>Tamaño del archivo: 68521569 bytes (65.35 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4326
 
 #### Otros datos relevantes
 * `codigo`

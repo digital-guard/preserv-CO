@@ -12,7 +12,7 @@ rm -rf /tmp/sandbox/_pk17000000501_001 || true
 mkdir -m 777 -p /tmp/sandbox
 mkdir -m 777 -p /tmp/sandbox/_pk17000000501_001
 mkdir -p /tmp/pg_io
-wget -P /var/www/dl.digital-guard.org http://dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip
+wget -P /var/www/dl.digital-guard.org https://dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip
 sudo chown postgres:www-data /var/www/dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip && sudo chmod 664 /var/www/dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip
 psql postgres://postgres@localhost/ingest1 -c "DROP  TABLE IF EXISTS pk17000000501101_p1_nsvia CASCADE"
 cd /tmp/sandbox/_pk17000000501_001; 7z  x -y /var/www/dl.digital-guard.org/121d26a488ae9b2dd73e72e2d9495a9b892ca3068b95fe969fc64610d7615ff8.zip "*Codigo_Postal/CODIGO_POSTAL_COMPLETA*" ; chmod -R a+rwx . > /dev/null

@@ -28,7 +28,7 @@ Los archivos contienen "capas de datos" temáticas. Los metadatos también descr
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/> block
 
-Nombre del archivo: `shp/U_MANZANA`<br/>*Descarga* e integridad: [d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip](http://dl.digital-guard.org/d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip)<br/>Descripción: Manzana<br/>Tamaño del archivo: 138808602 bytes (132.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+Nombre del archivo: `shp/U_MANZANA`<br/>*Descarga* e integridad: [d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip](https://dl.digital-guard.org/d49ab53b06be4934f160bee3a92d671346d9ad2137fbd901e99875ab2fad7621.zip)<br/>Descripción: Manzana<br/>Tamaño del archivo: 138808602 bytes (132.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Otros datos relevantes
 * `codigo`
@@ -41,7 +41,7 @@ Nombre del archivo: `shp/U_MANZANA`<br/>*Descarga* e integridad: [d49ab53b06be49
 [https://viz.addressforall.org/CO/_pk0003.01/block](https://viz.addressforall.org/CO/_pk0003.01/block)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
-Nombre del archivo: `NOMENCLATURA_VIAL`<br/>*Descarga* e integridad: [6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip](http://dl.digital-guard.org/6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip)<br/>Descripción: Nomenclatura Vial urbano e rural<br/>Tamaño del archivo: 21369297 bytes (20.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+Nombre del archivo: `NOMENCLATURA_VIAL`<br/>*Descarga* e integridad: [6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip](https://dl.digital-guard.org/6f35dbfe7ad230f1f6f2209f5d50901c05965d7b97a9c3dafada4a9af012c335.zip)<br/>Descripción: Nomenclatura Vial urbano e rural<br/>Tamaño del archivo: 21369297 bytes (20.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Datos relevantes
 * `texto` (via)
@@ -53,21 +53,21 @@ Nombre del archivo: `NOMENCLATURA_VIAL`<br/>*Descarga* e integridad: [6f35dbfe7a
 [https://viz.addressforall.org/CO/_pk0003.01/via](https://viz.addressforall.org/CO/_pk0003.01/via)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
-Nombre del archivo: `NOMENCLATURA_DOMICILIARIA`<br/>*Descarga* e integridad: [2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip](http://dl.digital-guard.org/2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip)<br/>Descripción: Nomenclatura Domiciliaria urbano e rural<br/>Tamaño del archivo: 146145734 bytes (139.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+Nombre del archivo: `NOMENCLATURA_DOMICILIARIA`<br/>*Descarga* e integridad: [2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip](https://dl.digital-guard.org/2db40c6a0a4ddc0bb0f765a9195c34b258de49b179f90cd54244406e0c62df83.zip)<br/>Descripción: Nomenclatura Domiciliaria urbano e rural<br/>Tamaño del archivo: 146145734 bytes (139.38 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Datos relevantes
 * `texto` (hnum)
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-parcel.png" alt="parcel" width="20"/> parcel
 
-Nombre del archivo: `TERRENO`<br/>*Descarga* e integridad: [137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip](http://dl.digital-guard.org/137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip)<br/>Descripción: Terreno urbano e rural<br/>Tamaño del archivo: 1477181184 bytes (1408.75 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+Nombre del archivo: `TERRENO`<br/>*Descarga* e integridad: [137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip](https://dl.digital-guard.org/137dc416e70776ac57c37a4fb0cb9bedb1468e91ed73eaa656ddee91011daed7.zip)<br/>Descripción: Terreno urbano e rural<br/>Tamaño del archivo: 1477181184 bytes (1408.75 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Otros datos relevantes
 * `codigo`
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
 
-Nombre del archivo: `shp/R_VEREDA`<br/>*Descarga* e integridad: [08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip](http://dl.digital-guard.org/08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip)<br/>Descripción: Vereda<br/>Tamaño del archivo: 192682440 bytes (183.76 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
+Nombre del archivo: `shp/R_VEREDA`<br/>*Descarga* e integridad: [08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip](https://dl.digital-guard.org/08bc4f124ca0a65d9eae97663eca0894d3bb4d37ead1168b767a540b68db324f.zip)<br/>Descripción: Vereda<br/>Tamaño del archivo: 192682440 bytes (183.76 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 4686
 
 #### Datos relevantes
 * `nombre` (nsvia)
