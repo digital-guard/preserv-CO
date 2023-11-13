@@ -10,8 +10,12 @@ files:
     file: aaa8c908e179e07841aed287de18277811fedc3bd9a078100e63fd7e63c4e90b.zip
     name: Geoaddress
 
-layers:
+license_evidences:
+  definition: [cc-by-4.0, by, 'https://creativecommons.org/licenses/by/4.0/']
+  file: 6256e2d0b6fd7b1c44578595b46bc74fa7ae827a067a0c3e1a2be6f33d77145e.zip
+  uri_evidency: http://web.archive.org/web/20231113180209/https://geoportal.dane.gov.co/acerca-del-geoportal/licencia-y-condiciones-de-uso
 
+layers:
   geoaddress:
     subtype: full
     method: txt2sql
