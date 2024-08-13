@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.cali.gov.co">Santiago de Cali</a>
 <br/>&nbsp; <small>NIT 890399011-3</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q51103">Q51103</a></small><br/>
-Licencia <a rel="external" target="_doador" href="https://creativecommons.org/publicdomain/zero/1.0/"><b>CC0-1.0</b></a> (cc0 <a title="SHA256 0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip" href="https://dl.digital-guard.org/0b0f9b510c5a82125edab20161cc36290d0a677d99a03e21392de841a647b5bb.zip"><code>0b0f9b5...zip</code></a>)<br/>
+Licencia <a rel="external" target="_doador" href="https://creativecommons.org/publicdomain/zero/1.0/"><b>CC0-1.0</b></a> (cc0)<br/>
 Obtido via <i></i> em <b>05/04/2022</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/crebollobr">crebollobr</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
